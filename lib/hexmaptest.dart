@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hexagon/hexagon.dart';
 
+// code from https://pub.dev/packages/hexagon/versions/0.2.0-nullsafety.1/example
+// edited for debugging
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: const MyHomePage(title: 'Example'),
@@ -176,12 +179,13 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       maxScale: 4.0,
       child: HexagonGrid(
         hexType: type,
-        color: Colors.pink,
+        color: Colors.black87,
         depth: depth,
         buildTile: (coordinates) => HexagonWidgetBuilder(
-          padding: 2.0,
-          cornerRadius: 8.0,
-          child: Text('${coordinates.q}, ${coordinates.r}'),
+          color: Colors.yellow,
+          padding: 1.0,
+          cornerRadius: 20.0,
+          child: const Text('test'),
           // Text('${coordinates.x}, ${coordinates.y}, ${coordinates.z}\n  ${coordinates.q}, ${coordinates.r}'),
         ),
       ),
@@ -218,8 +222,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
           HexagonOffsetGrid.evenFlat(
             color: Colors.yellow.shade100,
             padding: const EdgeInsets.all(8.0),
-            columns: 5,
-            rows: 10,
+            columns: 1,
+            rows: 1,
             buildTile: (col, row) => HexagonWidgetBuilder(
               color: row.isEven ? Colors.yellow : Colors.orangeAccent,
               elevation: 2.0,
