@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - trevor-actions
   pull_request:
 
 jobs:
@@ -20,4 +19,4 @@ jobs:
           flutter-version: '2.5.2'
       - run: flutter pub get
       - run: flutter test
-  
+      - run: flutter build web 
