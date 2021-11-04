@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/chatscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Diplomacy',
       theme: ThemeData(
         // This is the theme of your application.
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Diplomacy Home Page'),
+      home: const ChatScreen(),
     );
   }
 }
