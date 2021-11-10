@@ -9,31 +9,33 @@ class ChatScreen extends StatefulWidget {
   _ChatScreenState createState() => _ChatScreenState();
 }
 
+List<ChatMessage> messages = [
+  ChatMessage(
+      messageFrom: "Bill: ",
+      messageContent: "Hello, world!",
+      messageType: "receiver"),
+  ChatMessage(
+      messageFrom: "Susan: ",
+      messageContent: "Random text here!!!",
+      messageType: "receiver"),
+  ChatMessage(
+      messageFrom: "Bob: ",
+      messageContent: "Some question about game?",
+      messageType: "sender"),
+  ChatMessage(
+      messageFrom: "Auther: ",
+      messageContent: "CoooooooooLLLLLLLLLLL",
+      messageType: "receiver"),
+  ChatMessage(
+      messageFrom: "Bob: ",
+      messageContent: "LALALALALLALALALALA",
+      messageType: "sender"),
+];
+
 class _ChatScreenState extends State<ChatScreen> {
+  TextEditingController textController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    List<ChatMessage> messages = [
-      ChatMessage(
-          messageFrom: "Bill: ",
-          messageContent: "Hello, world!",
-          messageType: "receiver"),
-      ChatMessage(
-          messageFrom: "Susan: ",
-          messageContent: "Random text here!!!",
-          messageType: "receiver"),
-      ChatMessage(
-          messageFrom: "Bob: ",
-          messageContent: "Some question about game?",
-          messageType: "sender"),
-      ChatMessage(
-          messageFrom: "Auther: ",
-          messageContent: "CoooooooooLLLLLLLLLLL",
-          messageType: "receiver"),
-      ChatMessage(
-          messageFrom: "Bob: ",
-          messageContent: "LALALALALLALALALALA",
-          messageType: "sender"),
-    ];
     return Scaffold(
       appBar: AppBar(
         title: const Text("Lobby Chat"),
@@ -83,9 +85,10 @@ class _ChatScreenState extends State<ChatScreen> {
                   const SizedBox(
                     width: 15,
                   ),
-                  const Expanded(
+                  Expanded(
                     child: TextField(
-                      decoration: InputDecoration(
+                      controller: textController,
+                      decoration: const InputDecoration(
                           hintText: "Write message...",
                           hintStyle: TextStyle(color: Colors.black54),
                           border: InputBorder.none),
@@ -95,7 +98,17 @@ class _ChatScreenState extends State<ChatScreen> {
                     width: 15,
                   ),
                   FloatingActionButton(
-                    onPressed: () {}, // Create message
+                    onPressed: () {
+                      if (textController.text != "") {
+                        var newMessage = ChatMessage(
+                            messageFrom: "Bob: ",
+                            messageType: "sender",
+                            messageContent: textController.text);
+                        messages.add(newMessage);
+                        textController.clear();
+                        setState(() {});
+                      }
+                    }, // Create message
                     child: const Icon(
                       Icons.send,
                       color: Colors.white,
