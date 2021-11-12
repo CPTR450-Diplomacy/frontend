@@ -29,86 +29,118 @@ class HexMapState extends State<HexMap> {
     return Scaffold(
         appBar: AppBar(title: const Text('HexMap Example')),
         body: Center(
-          child: SingleChildScrollView(
-            child: Container(
-                //decoration: BoxDecoration(border: Border.all()),
-                color: Colors.black,
-                child: SizedBox(
-                    height: 660.0,
-                    width: 500.0,
-                    child: CustomMultiChildLayout(
-                      delegate: MyDelegate(),
-                      children: [
-                        LayoutId(
-                            id: 1,
-                            child: SvgPicture.string(
-                              NAF,
-                              width: 400.0,
-                              color: Color(0xFFFFF9BD),
-                            )),
-                        LayoutId(
-                            id: 2,
-                            child: SvgPicture.string(
-                              MAT,
-                              color: Color(0xFF9AD9EA),
-                            )),
-                        LayoutId(
-                            id: 3,
-                            child: SvgPicture.string(
-                              NAT,
-                              color: Color(0xFF9AD9EA),
-                            )),
-                        LayoutId(
-                            id: 4,
-                            child: SvgPicture.string(
-                              IRI,
-                              color: Color(0xFF9AD9EA),
-                            )),
-                        LayoutId(
-                            id: 5,
-                            child: SvgPicture.string(
-                              NWG,
-                              color: Color(0xFF9AD9EA),
-                            )),
-                        LayoutId(
-                            id: 6,
-                            child: SvgPicture.string(
-                              ENG,
-                              color: Color(0xFF9AD9EA),
-                            )),
-                        LayoutId(
-                            id: 7,
-                            child: SvgPicture.string(
-                              TUN,
-                              color: Color(0xFFFFF9BD),
-                            )),
-                        // LayoutId(
-                        //     id: 8,
-                        //     child: SvgPicture.string(
-                        //       NTH,
-                        //       color: Color(0xFF9AD9EA),
-                        //     )),
-                        LayoutId(
-                            id: 9,
-                            child: SvgPicture.string(
-                              WME,
-                              color: Color(0xFF9AD9EA),
-                            )),
-                        LayoutId(
-                            id: 10,
-                            child: SvgPicture.string(
-                              TYS,
-                              color: Color(0xFF9AD9EA),
-                            )),
-                        LayoutId(
-                            id: 11,
-                            child: SvgPicture.string(
-                              CLY,
-                              color: Color(0xFFFFF9BD),
-                            ))
-                      ],
-                    ))),
+            child: SingleChildScrollView(
+          child: Container(
+            //decoration: BoxDecoration(border: Border.all()),
+            color: Colors.black,
+            child: Stack(
+              children: [SVGs(), Labels()],
+            ),
           ),
+        )));
+  }
+}
+
+class Labels extends StatelessWidget {
+  const Labels({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+        height: 660.0,
+        width: 500.0,
+        child: CustomMultiChildLayout(
+          delegate: MyDelegate(),
+          children: [
+            LayoutId(id: 1, child: Text('NAO')),
+          ],
+        ));
+  }
+}
+
+class SVGs extends StatelessWidget {
+  const SVGs({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+        height: 660.0,
+        width: 500.0,
+        child: CustomMultiChildLayout(
+          delegate: MyDelegate(),
+          children: [
+            LayoutId(
+                id: 1,
+                child: SvgPicture.string(
+                  NAF,
+                  width: 400.0,
+                  color: Color(0xFFFFF9BD),
+                )),
+            LayoutId(
+                id: 2,
+                child: SvgPicture.string(
+                  MAT,
+                  color: Color(0xFF9AD9EA),
+                )),
+            LayoutId(
+                id: 3,
+                child: SvgPicture.string(
+                  NAT,
+                  color: Color(0xFF9AD9EA),
+                )),
+            LayoutId(
+                id: 4,
+                child: SvgPicture.string(
+                  IRI,
+                  color: Color(0xFF9AD9EA),
+                )),
+            LayoutId(
+                id: 5,
+                child: SvgPicture.string(
+                  NWG,
+                  color: Color(0xFF9AD9EA),
+                )),
+            LayoutId(
+                id: 6,
+                child: SvgPicture.string(
+                  ENG,
+                  color: Color(0xFF9AD9EA),
+                )),
+            LayoutId(
+                id: 7,
+                child: SvgPicture.string(
+                  TUN,
+                  color: Color(0xFFFFF9BD),
+                )),
+            // LayoutId(
+            //     id: 8,
+            //     child: SvgPicture.string(
+            //       NTH,
+            //       color: Color(0xFF9AD9EA),
+            //     )),
+            LayoutId(
+                id: 9,
+                child: SvgPicture.string(
+                  WME,
+                  color: Color(0xFF9AD9EA),
+                )),
+            LayoutId(
+                id: 10,
+                child: SvgPicture.string(
+                  TYS,
+                  color: Color(0xFF9AD9EA),
+                )),
+            LayoutId(
+                id: 11,
+                child: SvgPicture.string(
+                  CLY,
+                  color: Color(0xFFFFF9BD),
+                ))
+          ],
         ));
   }
 }
