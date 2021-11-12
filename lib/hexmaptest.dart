@@ -67,81 +67,85 @@ class SVGs extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-        height: 660.0,
-        width: 500.0,
-        child: CustomMultiChildLayout(
-          delegate: MyDelegate(),
-          children: [
-            LayoutId(
-                id: 1,
-                child: SvgPicture.string(
-                  NAF,
-                  width: 400.0,
-                  color: Color(0xFFFFF9BD),
-                )),
-            LayoutId(
-                id: 2,
-                child: SvgPicture.string(
-                  MAT,
-                  color: Color(0xFF9AD9EA),
-                )),
-            LayoutId(
-                id: 3,
-                child: SvgPicture.string(
-                  NAT,
-                  color: Color(0xFF9AD9EA),
-                )),
-            LayoutId(
-                id: 4,
-                child: SvgPicture.string(
-                  IRI,
-                  color: Color(0xFF9AD9EA),
-                )),
-            LayoutId(
-                id: 5,
-                child: SvgPicture.string(
-                  NWG,
-                  color: Color(0xFF9AD9EA),
-                )),
-            LayoutId(
-                id: 6,
-                child: SvgPicture.string(
-                  ENG,
-                  color: Color(0xFF9AD9EA),
-                )),
-            LayoutId(
-                id: 7,
-                child: SvgPicture.string(
-                  TUN,
-                  color: Color(0xFFFFF9BD),
-                )),
-            // LayoutId(
-            //     id: 8,
-            //     child: SvgPicture.string(
-            //       NTH,
-            //       color: Color(0xFF9AD9EA),
-            //     )),
-            LayoutId(
-                id: 9,
-                child: SvgPicture.string(
-                  WME,
-                  color: Color(0xFF9AD9EA),
-                )),
-            LayoutId(
-                id: 10,
-                child: SvgPicture.string(
-                  TYS,
-                  color: Color(0xFF9AD9EA),
-                )),
-            LayoutId(
-                id: 11,
-                child: SvgPicture.string(
-                  CLY,
-                  color: Color(0xFFFFF9BD),
-                ))
-          ],
-        ));
+    return Transform.scale(
+      scale:
+          0.5, // change this value to scale (can exceed dimensions of the SizedBox child)
+      child: SizedBox(
+          height: 660.0,
+          width: 500.0,
+          child: CustomMultiChildLayout(
+            delegate: MyDelegate(),
+            children: [
+              LayoutId(
+                  id: 1,
+                  child: SvgPicture.string(
+                    NAF,
+                    width: 400.0,
+                    color: Color(0xFFFFF9BD),
+                  )),
+              LayoutId(
+                  id: 2,
+                  child: SvgPicture.string(
+                    MAT,
+                    color: Color(0xFF9AD9EA),
+                  )),
+              LayoutId(
+                  id: 3,
+                  child: SvgPicture.string(
+                    NAT,
+                    color: Color(0xFF9AD9EA),
+                  )),
+              LayoutId(
+                  id: 4,
+                  child: SvgPicture.string(
+                    IRI,
+                    color: Color(0xFF9AD9EA),
+                  )),
+              LayoutId(
+                  id: 5,
+                  child: SvgPicture.string(
+                    NWG,
+                    color: Color(0xFF9AD9EA),
+                  )),
+              LayoutId(
+                  id: 6,
+                  child: SvgPicture.string(
+                    ENG,
+                    color: Color(0xFF9AD9EA),
+                  )),
+              LayoutId(
+                  id: 7,
+                  child: SvgPicture.string(
+                    TUN,
+                    color: Color(0xFFFFF9BD),
+                  )),
+              // LayoutId(
+              //     id: 8,
+              //     child: SvgPicture.string(
+              //       NTH,
+              //       color: Color(0xFF9AD9EA),
+              //     )),
+              LayoutId(
+                  id: 9,
+                  child: SvgPicture.string(
+                    WME,
+                    color: Color(0xFF9AD9EA),
+                  )),
+              LayoutId(
+                  id: 10,
+                  child: SvgPicture.string(
+                    TYS,
+                    color: Color(0xFF9AD9EA),
+                  )),
+              LayoutId(
+                  id: 11,
+                  child: SvgPicture.string(
+                    CLY,
+                    color: Color(0xFFFFF9BD),
+                  ))
+            ],
+          )),
+    );
   }
 }
 
