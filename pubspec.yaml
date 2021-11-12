@@ -76,14 +76,14 @@ flutter:
   fonts:
     - family: Behrensschrift
       fonts:
-        - asset: assets/Behrensschrift.ttf
+        - asset: assets/fonts/Behrensschrift.ttf
 
     - family: Akzidenz-grotesk
       fonts:
-        - asset: assets/Akzidenz-grotesk-black.ttf
-        - asset: assets/Akzidenz-grotesk-bold.ttf
-        - asset: assets/Akzidenz-grotesk-light.ttf
-        - asset: assets/Akzidenz-grotesk-roman.ttf
+        - asset: assets/fonts/Akzidenz-grotesk-black.ttf
+        - asset: assets/fonts/Akzidenz-grotesk-bold.ttf
+        - asset: assets/fonts/Akzidenz-grotesk-light.ttf
+        - asset: assets/fonts/Akzidenz-grotesk-roman.ttf
           weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
