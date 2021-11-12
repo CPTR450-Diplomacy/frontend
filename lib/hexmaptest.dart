@@ -29,84 +29,86 @@ class HexMapState extends State<HexMap> {
     return Scaffold(
         appBar: AppBar(title: const Text('HexMap Example')),
         body: Center(
-          child: Container(
-              //decoration: BoxDecoration(border: Border.all()),
-              color: Colors.black,
-              child: SizedBox(
-                  height: 660.0,
-                  width: 500.0,
-                  child: CustomMultiChildLayout(
-                    delegate: MyDelegate(),
-                    children: [
-                      LayoutId(
-                          id: 1,
-                          child: SvgPicture.string(
-                            NAF,
-                            width: 400.0,
-                            color: Color(0xFFFFF9BD),
-                          )),
-                      LayoutId(
-                          id: 2,
-                          child: SvgPicture.string(
-                            MAT,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 3,
-                          child: SvgPicture.string(
-                            NAT,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 4,
-                          child: SvgPicture.string(
-                            IRI,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 5,
-                          child: SvgPicture.string(
-                            NWG,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 6,
-                          child: SvgPicture.string(
-                            ENG,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 7,
-                          child: SvgPicture.string(
-                            TUN,
-                            color: Color(0xFFFFF9BD),
-                          )),
-                      LayoutId(
-                          id: 8,
-                          child: SvgPicture.string(
-                            NTH,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 9,
-                          child: SvgPicture.string(
-                            WME,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 10,
-                          child: SvgPicture.string(
-                            TYS,
-                            color: Color(0xFF9AD9EA),
-                          )),
-                      LayoutId(
-                          id: 11,
-                          child: SvgPicture.string(
-                            EDI,
-                            color: Color(0xFFF5E49C),
-                          ))
-                    ],
-                  ))),
+          child: SingleChildScrollView(
+            child: Container(
+                //decoration: BoxDecoration(border: Border.all()),
+                color: Colors.black,
+                child: SizedBox(
+                    height: 660.0,
+                    width: 500.0,
+                    child: CustomMultiChildLayout(
+                      delegate: MyDelegate(),
+                      children: [
+                        LayoutId(
+                            id: 1,
+                            child: SvgPicture.string(
+                              NAF,
+                              width: 400.0,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 2,
+                            child: SvgPicture.string(
+                              MAT,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 3,
+                            child: SvgPicture.string(
+                              NAT,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 4,
+                            child: SvgPicture.string(
+                              IRI,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 5,
+                            child: SvgPicture.string(
+                              NWG,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 6,
+                            child: SvgPicture.string(
+                              ENG,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 7,
+                            child: SvgPicture.string(
+                              TUN,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        // LayoutId(
+                        //     id: 8,
+                        //     child: SvgPicture.string(
+                        //       NTH,
+                        //       color: Color(0xFF9AD9EA),
+                        //     )),
+                        LayoutId(
+                            id: 9,
+                            child: SvgPicture.string(
+                              WME,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 10,
+                            child: SvgPicture.string(
+                              TYS,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 11,
+                            child: SvgPicture.string(
+                              CLY,
+                              color: Color(0xFFFFF9BD),
+                            ))
+                      ],
+                    ))),
+          ),
         ));
   }
 }
@@ -169,13 +171,13 @@ class MyDelegate extends MultiChildLayoutDelegate {
           maxHeight: 397,
         ),
       );
-      final NTHPosition = layoutChild(
-        8,
-        const BoxConstraints(
-          maxWidth: 380,
-          maxHeight: 380,
-        ),
-      );
+      // final NTHPosition = layoutChild(
+      //   8,
+      //   const BoxConstraints(
+      //     maxWidth: 380,
+      //     maxHeight: 380,
+      //   ),
+      // );
       final WMEPosition = layoutChild(
         9,
         const BoxConstraints(
@@ -190,11 +192,11 @@ class MyDelegate extends MultiChildLayoutDelegate {
           maxHeight: 348,
         ),
       );
-      final EDIPosition = layoutChild(
+      final CLYPosition = layoutChild(
         11,
         const BoxConstraints(
-          maxWidth: 415,
-          maxHeight: 415,
+          maxWidth: 425,
+          maxHeight: 425,
         ),
       );
 
@@ -205,10 +207,10 @@ class MyDelegate extends MultiChildLayoutDelegate {
       positionChild(5, Offset(21, -141));
       positionChild(6, Offset(-119.5, 2.5));
       positionChild(7, Offset(-68, 441));
-      positionChild(8, Offset(24.5, -59));
+      // positionChild(8, Offset(24.5, -59));
       positionChild(9, Offset(-102, 367));
       positionChild(10, Offset(-22.2, 412.8));
-      positionChild(11, Offset(-4.5, -166));
+      positionChild(11, Offset(-61, -170));
     }
   }
 
