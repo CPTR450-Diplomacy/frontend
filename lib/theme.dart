@@ -13,6 +13,8 @@ class CustomTheme {
   }
 }
 
+//Main 7 country colors (first - fill & second - outline)
+
 //Red: f0b097 & ed7648
 //Orange: f4cf99 & f4a93c
 //Yellow: f4dd99 & efc547
@@ -20,5 +22,8 @@ class CustomTheme {
 //Blue: b4ded9 & 7cc8d6
 //Indigo: 999ff4 & 6770f3
 //Violet: d399f4 & b64af3
+
+//Map margins will be sand and the gray is an uninhabited country
+
 //Sand: f6d8b2 & e1b174
 //Gray: cbcbcb & 9a9a9a
