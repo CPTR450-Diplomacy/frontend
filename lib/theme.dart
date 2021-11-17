@@ -12,3 +12,13 @@ class CustomTheme {
         ));
   }
 }
+
+//Red: f0b097 & ed7648
+//Orange: f4cf99 & f4a93c
+//Yellow: f4dd99 & efc547
+//Green: bfd19d & 8ac489
+//Blue: b4ded9 & 7cc8d6
+//Indigo: 999ff4 & 6770f3
+//Violet: d399f4 & b64af3
+//Sand: f6d8b2 & e1b174
+//Gray: cbcbcb & 9a9a9a
