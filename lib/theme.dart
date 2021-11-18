@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+//import 'package:glutenfreegenie/colors.dart';
 
 class CustomTheme {
+  //static const colors = AppColors();
   static ThemeData get defaultTheme {
     return ThemeData(
         colorScheme: const ColorScheme(
@@ -29,6 +31,11 @@ class CustomTheme {
             bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village')));
   }
 }
+
+//Example
+//color:AppTheme.colors.red
+
+//https://www.youtube.com/watch?v=Ml0d8m8Pphg&ab_channel=BleylDev - colors reference
 
 //Main 7 country colors (first - fill & second - outline)
 
