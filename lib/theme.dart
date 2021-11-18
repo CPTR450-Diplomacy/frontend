@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
+//import 'package:glutenfreegenie/colors.dart';
 
 class CustomTheme {
+  //static const colors = AppColors();
   static ThemeData get defaultTheme {
     return ThemeData(
         brightness: Brightness.light,
         primaryColor: const Color(0xFFB9A37E),
         backgroundColor: const Color(0xFFFAFAFA),
-        Color red = const Color(0xFFf0b097),
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
             headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
@@ -17,6 +18,11 @@ class CustomTheme {
             bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village')));
   }
 }
+
+//Example
+//color:AppTheme.colors.red
+
+//https://www.youtube.com/watch?v=Ml0d8m8Pphg&ab_channel=BleylDev - colors reference
 
 //Main 7 country colors (first - fill & second - outline)
 
