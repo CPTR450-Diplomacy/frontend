@@ -77,6 +77,10 @@ flutter:
     - family: Behrensschrift
       fonts:
         - asset: assets/fonts/Behrensschrift.ttf
+    
+    - family: Behrensschrift
+      fonts:
+        - asset: assets/fonts/Village.ttf
 
     - family: Akzidenz-grotesk
       fonts:
