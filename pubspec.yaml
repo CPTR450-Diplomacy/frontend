@@ -78,7 +78,7 @@ flutter:
       fonts:
         - asset: assets/fonts/Behrensschrift.ttf
     
-    - family: Behrensschrift
+    - family: Village
       fonts:
         - asset: assets/fonts/Village.ttf
 

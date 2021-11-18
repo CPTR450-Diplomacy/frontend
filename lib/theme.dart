@@ -9,6 +9,7 @@ class CustomTheme {
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
           headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
+          body1: TextStyle(fontSize: 24.0, fontFamily: 'Village')
         ));
   }
 }
