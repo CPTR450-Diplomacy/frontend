@@ -1,4 +1,3 @@
-import 'theme.dart';
 import 'package:flutter/material.dart';
 
 class CustomTheme {
@@ -9,9 +8,12 @@ class CustomTheme {
         backgroundColor: const Color(0xFFFAFAFA),
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
-          headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
-          bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village')
-        ));
+            headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
+            headline2: TextStyle(
+                fontSize: 32.0,
+                fontFamily: 'Akzidenz-grotesk',
+                fontWeight: FontWeight.bold),
+            bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village')));
   }
 }
 
