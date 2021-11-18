@@ -1,5 +1,5 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:frontend/theme.dart';
+import 'package:frontend/styling/theme.dart';
 import 'package:flutter/material.dart';
 
 class CallToAction extends StatelessWidget {
@@ -15,7 +15,7 @@ class CallToAction extends StatelessWidget {
         style: CustomTheme.defaultTheme.textTheme.headline2,
       ),
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 31, 229, 146),
+        color: CustomTheme.colors.red,
         borderRadius: BorderRadius.circular(5),
       ),
     );

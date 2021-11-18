@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-//import 'package:glutenfreegenie/colors.dart';
+import 'package:frontend/styling/colors.dart';
 
 class CustomTheme {
-  //static const colors = AppColors();
+  static const colors = AppColors();
   static ThemeData get defaultTheme {
     return ThemeData(
         colorScheme: const ColorScheme(
@@ -33,7 +33,7 @@ class CustomTheme {
 }
 
 //Example
-//color:AppTheme.colors.red
+//color:CustomTheme.colors.red
 
 //https://www.youtube.com/watch?v=Ml0d8m8Pphg&ab_channel=BleylDev - colors reference
 
