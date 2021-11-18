@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Main Menu',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        theme: CustomTheme.defaultTheme,
         // ignore: prefer_const_constructors
         home: HomeView());
   }

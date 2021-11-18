@@ -3,13 +3,26 @@ import 'package:flutter/material.dart';
 class CustomTheme {
   static ThemeData get defaultTheme {
     return ThemeData(
-        brightness: Brightness.light,
-        primaryColor: const Color(0xFFB9A37E),
-        backgroundColor: const Color(0xFFFAFAFA),
+        colorScheme: const ColorScheme(
+          primary: Color(0xFFB9A37E), //dark tan
+          primaryVariant: Color(0xFFB9A37E),
+          onPrimary: Colors.black,
+          background: Color(0xFFFAFAFA), //light tan
+          onBackground: Colors.black,
+          brightness: Brightness.light,
+          secondary: Color(0xfff6d8b2),
+          secondaryVariant: Color(0xffe1b174),
+          onSecondary: Colors.black,
+          surface: Color(0xFFFAFAFA),
+          onSurface: Colors.black,
+          error: Colors.blue,
+          onError: Colors.red,
+        ),
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
             headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
             headline2: TextStyle(
+                //subheading
                 fontSize: 32.0,
                 fontFamily: 'Akzidenz-grotesk',
                 fontWeight: FontWeight.bold),
