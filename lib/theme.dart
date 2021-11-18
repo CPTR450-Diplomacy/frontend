@@ -6,6 +6,7 @@ class CustomTheme {
         brightness: Brightness.light,
         primaryColor: const Color(0xFFB9A37E),
         backgroundColor: const Color(0xFFFAFAFA),
+        Color red = const Color(0xFFf0b097),
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
             headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
