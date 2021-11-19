@@ -15,7 +15,7 @@ class CallToAction extends StatelessWidget {
         style: CustomTheme.defaultTheme.textTheme.headline2,
       ),
       decoration: BoxDecoration(
-        color: CustomTheme.colors.red,
+        color: CustomTheme.colors.orange,
         borderRadius: BorderRadius.circular(5),
       ),
     );
