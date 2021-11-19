@@ -82,6 +82,15 @@ flutter:
       fonts:
         - asset: assets/fonts/Village.ttf
 
+    - family: Centaur
+      fonts:
+        - asset: assets/fonts/CENTAUR.TTF
+    
+    - family: Nadira
+      fonts:
+        - asset: assets/fonts/NF-Nadira-Pro-Bold.ttf
+        - asset: assets/fonts/NF-Nadira-Pro-Regular.ttf
+
     - family: Akzidenz-grotesk
       fonts:
         - asset: assets/fonts/Akzidenz-grotesk-black.ttf
