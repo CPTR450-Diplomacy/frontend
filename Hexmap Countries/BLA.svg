@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(2, 0, 0, 2, 4.099561, -1.171303)">
+    <g id="background-9e939ca1"/>
+    <g id="background-images-9e939ca1"/>
+    <g id="graphpaper-9e939ca1">
+      <g id="axis-9e939ca1">
+        <g>
+          <g>
+            <path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-tickmark" paint-order="fill stroke markers" d="" stroke-opacity="0.9" stroke-miterlimit="2" stroke-width="1.5" stroke-dasharray=""/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="expressions-9e939ca1">
+      <g id="sketch-9e939ca1">
+        <title>Expression 30</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 68.57752011308168 251.8842387100309 L 90.54481256928173 251.8842387100309 L 101.52845879738176 232.8600053905994 L 90.54481256928173 213.8357720711679 L 68.57752011308168 213.8357720711679 L 57.59387388498165 232.8600053905994 L 68.57752011308168 251.8842387100309" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-9e939ca1">
+        <title>Expression 34</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 57.59387388498165 156.76307211287337 L 68.57752011308168 175.78730543230486 L 90.54481256928173 175.78730543230486 L 101.52845879738176 156.76307211287337 L 90.54481256928173 137.73883879344186 L 68.57752011308168 137.73883879344186 L 57.59387388498165 156.76307211287337" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-9e939ca1">
+        <title>Expression 35</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 68.57752011308168 213.8357720711679 L 90.54481256928173 213.8357720711679 L 101.52845879738176 194.81153875173638 L 90.54481256928173 175.78730543230486 L 68.57752011308168 175.78730543230486 L 57.59387388498165 194.81153875173638 L 68.57752011308168 213.8357720711679" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-9e939ca1">
+        <title>Expression 36</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 68.57752011308168 251.8842387100309 L 90.54481256928173 251.8842387100309 L 101.52845879738176 270.9084720294624 L 90.54481256928173 289.93270534889393 L 68.57752011308168 289.93270534889393 L 57.59387388498165 270.9084720294624 L 68.57752011308168 251.8842387100309" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-9e939ca1">
+        <title>Expression 38</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 101.52845879738176 232.8600053905994 L 123.49575125358182 232.8600053905994 L 134.47939748168184 213.8357720711679 L 123.49575125358182 194.81153875173638 L 101.52845879738176 194.81153875173638 L 90.54481256928173 213.8357720711679 L 101.52845879738176 232.8600053905994" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-9e939ca1">
+        <title>Expression 39</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 101.52845879738176 194.81153875173638 L 123.49575125358182 194.81153875173638 L 134.47939748168184 175.78730543230486 L 123.49575125358182 156.76307211287337 L 101.52845879738176 156.76307211287337 L 90.54481256928173 175.78730543230486 L 101.52845879738176 194.81153875173638" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-9e939ca1">
+        <title>Expression 42</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 90.54481256928173 137.73883879344186 L 101.52845879738176 156.76307211287337 L 123.49575125358182 156.76307211287337 L 134.47939748168184 137.73883879344186 L 123.49575125358182 118.71460547401034 L 101.52845879738176 118.71460547401034 L 90.54481256928173 137.73883879344186" fill-opacity="0.4"/>
+      </g>
+    </g>
+    <g id="labels-9e939ca1"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(2,2)">
+    <g id="background-7a6460c1"/>
+    <g id="background-images-7a6460c1"/>
+    <g id="graphpaper-7a6460c1">
+      <g id="axis-7a6460c1">
+        <g>
+          <g>
+            <path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-tickmark" paint-order="fill stroke markers" d="" stroke-opacity="0.9" stroke-miterlimit="2" stroke-width="1.5" stroke-dasharray=""/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="expressions-7a6460c1">
+      <g id="sketch-7a6460c1">
+        <title>Expression 30</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 153.11948635266484 262.7027855445156 L 195.91466640121283 262.7027855445156 L 217.31225642548682 225.64107246294412 L 195.91466640121283 188.5793593813726 L 153.11948635266484 188.5793593813726 L 131.72189632839084 225.64107246294412 L 153.11948635266484 262.7027855445156" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-7a6460c1">
+        <title>Expression 35</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 153.11948635266484 188.5793593813726 L 195.91466640121283 188.5793593813726 L 217.31225642548682 151.51764629980107 L 195.91466640121283 114.45593321822957 L 153.11948635266484 114.45593321822957 L 131.72189632839084 151.51764629980107 L 153.11948635266484 188.5793593813726" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-7a6460c1">
+        <title>Expression 38</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 217.31225642548682 225.64107246294412 L 260.1074364740348 225.64107246294412 L 281.5050264983088 188.5793593813726 L 260.1074364740348 151.51764629980107 L 217.31225642548682 151.51764629980107 L 195.91466640121283 188.5793593813726 L 217.31225642548682 225.64107246294412" fill-opacity="0.4"/>
+      </g>
+    </g>
+    <g id="labels-7a6460c1"/>
+  </g>
+</svg>

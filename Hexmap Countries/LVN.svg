@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(2,2)">
+    <g id="background-cbe9b7ab"/>
+    <g id="background-images-cbe9b7ab"/>
+    <g id="graphpaper-cbe9b7ab">
+      <g id="axis-cbe9b7ab">
+        <g>
+          <g>
+            <path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-tickmark" paint-order="fill stroke markers" d="" stroke-opacity="0.9" stroke-miterlimit="2" stroke-width="1.5" stroke-dasharray=""/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="expressions-cbe9b7ab">
+      <g id="sketch-cbe9b7ab">
+        <title>Expression 32</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 145.54664511885443 221.73181358127192 L 183.45517831064774 221.73181358127192 L 202.40944490654442 188.90206081697335 L 183.45517831064774 156.07230805267474 L 145.54664511885443 156.07230805267474 L 126.59237852295776 188.90206081697335 L 145.54664511885443 221.73181358127192" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-cbe9b7ab">
+        <title>Expression 34</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 183.45517831064774 156.07230805267474 L 202.40944490654442 188.90206081697335 L 240.31797809833773 188.90206081697335 L 259.2722446942344 156.07230805267474 L 240.31797809833773 123.24255528837608 L 202.40944490654442 123.24255528837608 L 183.45517831064774 156.07230805267474" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-cbe9b7ab">
+        <title>Expression 39</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 259.2722446942344 221.73181358127192 L 297.1807778860277 221.73181358127192 L 316.1350444819244 188.90206081697335 L 297.1807778860277 156.07230805267474 L 259.2722446942344 156.07230805267474 L 240.31797809833773 188.90206081697335 L 259.2722446942344 221.73181358127192" fill-opacity="0.4"/>
+      </g>
+    </g>
+    <g id="labels-cbe9b7ab"/>
+  </g>
+</svg>

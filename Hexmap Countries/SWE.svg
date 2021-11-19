@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(2,2)">
+    <g id="background-910a1616"/>
+    <g id="background-images-910a1616"/>
+    <g id="graphpaper-910a1616">
+      <g id="axis-910a1616">
+        <g>
+          <g>
+            <path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-tickmark" paint-order="fill stroke markers" d="" stroke-opacity="0.9" stroke-miterlimit="2" stroke-width="1.5" stroke-dasharray=""/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="expressions-910a1616">
+      <g id="sketch-910a1616">
+        <title>Expression 34</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 82.32350777071733 157.06348660269686 L 111.29758116081548 207.24805381657632 L 169.24572794101178 207.24805381657632 L 198.21980133110995 157.06348660269686 L 169.24572794101178 106.87891938881745 L 111.29758116081548 106.87891938881745 L 82.32350777071733 157.06348660269686" fill-opacity="0.4"/>
+      </g>
+      <g id="sketch-910a1616">
+        <title>Expression 39</title>
+        <path fill="#000000" stroke="none" class="dcg-svg-region" paint-order="stroke fill markers" d=" M 198.21980133110995 257.4326210304557 L 256.16794811130626 257.4326210304557 L 285.1420215014044 207.24805381657632 L 256.16794811130626 157.06348660269686 L 198.21980133110995 157.06348660269686 L 169.24572794101178 207.24805381657632 L 198.21980133110995 257.4326210304557" fill-opacity="0.4"/>
+      </g>
+    </g>
+    <g id="labels-910a1616"/>
+  </g>
+</svg>
