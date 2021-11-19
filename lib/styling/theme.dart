@@ -6,16 +6,16 @@ class CustomTheme {
   static ThemeData get defaultTheme {
     return ThemeData(
         colorScheme: const ColorScheme(
-          primary: Color(0xFFB9A37E), //dark tan
-          primaryVariant: Color(0xFFB9A37E),
+          primary: Color(0xFFe1b174), //sand2
+          primaryVariant: Color(0xFFe1b174),
           onPrimary: Colors.black,
-          background: Color(0xFFFAFAFA), //light tan
+          background: Color(0xFFf6d8b2), //sand1
           onBackground: Colors.black,
           brightness: Brightness.light,
-          secondary: Color(0xfff6d8b2),
-          secondaryVariant: Color(0xffe1b174),
+          secondary: Color(0xFFb4ded9),
+          secondaryVariant: Color(0xFF6770f3),
           onSecondary: Colors.black,
-          surface: Color(0xFFFAFAFA),
+          surface: Color(0xffcbcbcb),
           onSurface: Colors.black,
           error: Colors.blue,
           onError: Colors.red,
@@ -28,7 +28,9 @@ class CustomTheme {
                 fontSize: 32.0,
                 fontFamily: 'Akzidenz-grotesk',
                 fontWeight: FontWeight.bold),
-            bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village')));
+            bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village'),
+            bodyText2:
+                TextStyle(fontSize: 24.0, fontFamily: 'Akzidenz-grotesk')));
   }
 }
 
