@@ -17,7 +17,7 @@ class CourseDetails extends StatelessWidget {
         children: <Widget>[
           Text(
             'WELCOME TO\n DIPLOMACY',
-            style: CustomTheme.defaultTheme.textTheme.headline1,
+            style: CustomTheme.defaultTheme.textTheme.headline3,
           ),
           SizedBox(
             height: 30,
