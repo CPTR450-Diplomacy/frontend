@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:frontend/login/models/auth.dart';
 import 'package:flutter_fadein/flutter_fadein.dart';
+import '/theme.dart';
 
 class LoginContainer extends StatefulWidget {
   const LoginContainer({Key? key}) : super(key: key);
