@@ -23,12 +23,13 @@ class CustomTheme {
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
             headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
-            headline3: TextStyle(fontSize: 60.0, fontFamily: 'Centaur'),
-            headline2: TextStyle(
+            headline2: TextStyle(fontSize: 60.0, fontFamily: 'Centaur'),
+            headline3: TextStyle(
                 //subheading
                 fontSize: 32.0,
                 fontFamily: 'Akzidenz-grotesk',
                 fontWeight: FontWeight.bold),
+            headline4: TextStyle(fontSize: 60.0, fontFamily: 'Village'),
             bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village'),
             bodyText2:
                 TextStyle(fontSize: 24.0, fontFamily: 'Akzidenz-grotesk')));

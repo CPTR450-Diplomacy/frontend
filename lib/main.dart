@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
-import 'styling/theme.dart';
-import 'package:frontend/views/home/home_view.dart';
+import 'widgets/login.dart';
+import 'widgets/main_menu.dart';
+import 'widgets/game_screen.dart';
 
 void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-        title: 'Main Menu',
-        theme: CustomTheme.defaultTheme,
-        // ignore: prefer_const_constructors
-        home: HomeView());
-  }
+  runApp(MaterialApp(
+    initialRoute: '/',
+    routes: {
+      '/': (context) => LoginRoute(),
+      '/second': (context) => SecondRoute(),
+      '/third': (context) => ThirdRoute(),
+    },
+  ));
 }
