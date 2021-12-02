@@ -279,8 +279,229 @@ class HexMapState extends State<HexMap> {
                             child: SvgPicture.string(
                               APU,
                               color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 41,
+                            child: SvgPicture.string(
+                              BAR,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 42,
+                            child: SvgPicture.string(
+                              NOR,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 43,
+                            child: SvgPicture.string(
+                              STP,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 44,
+                            child: SvgPicture.string(
+                              FIN,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 45,
+                            child: SvgPicture.string(
+                              SWE,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 46,
+                            child: SvgPicture.string(
+                              GOB,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 47,
+                            child: SvgPicture.string(
+                              BAL,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 48,
+                            child: SvgPicture.string(
+                              BER,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 49,
+                            child: SvgPicture.string(
+                              LVN,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 50,
+                            child: SvgPicture.string(
+                              MOS,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 51,
+                            child: SvgPicture.string(
+                              WAR,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 52,
+                            child: SvgPicture.string(
+                              PRU,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 53,
+                            child: SvgPicture.string(
+                              SIL,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 54,
+                            child: SvgPicture.string(
+                              GAL,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 55,
+                            child: SvgPicture.string(
+                              MUN,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 56,
+                            child: SvgPicture.string(
+                              BOH,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 57,
+                            child: SvgPicture.string(
+                              VIE,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 58,
+                            child: SvgPicture.string(
+                              CRO,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 59,
+                            child: SvgPicture.string(
+                              ADR,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 60,
+                            child: SvgPicture.string(
+                              ION,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 61,
+                            child: SvgPicture.string(
+                              SEV,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 62,
+                            child: SvgPicture.string(
+                              ARM,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 63,
+                            child: SvgPicture.string(
+                              SYR,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 64,
+                            child: SvgPicture.string(
+                              UKR,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 65,
+                            child: SvgPicture.string(
+                              RUM,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 66,
+                            child: SvgPicture.string(
+                              BLA,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 67,
+                            child: SvgPicture.string(
+                              BUD,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 68,
+                            child: SvgPicture.string(
+                              TRI,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 69,
+                            child: SvgPicture.string(
+                              ALB,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 70,
+                            child: SvgPicture.string(
+                              SER,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 71,
+                            child: SvgPicture.string(
+                              BUL,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 72,
+                            child: SvgPicture.string(
+                              ANK,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 73,
+                            child: SvgPicture.string(
+                              CON,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 74,
+                            child: SvgPicture.string(
+                              GRE,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 75,
+                            child: SvgPicture.string(
+                              SMV,
+                              color: Color(0xFFFFF9BD),
+                            )),
+                        LayoutId(
+                            id: 76,
+                            child: SvgPicture.string(
+                              EME,
+                              color: Color(0xFF9AD9EA),
+                            )),
+                        LayoutId(
+                            id: 77,
+                            child: SvgPicture.string(
+                              AEG,
+                              color: Color(0xFF9AD9EA),
                             ))
-                        
                       ],
                     ))),
           ),
@@ -577,6 +798,265 @@ class MyDelegate extends MultiChildLayoutDelegate {
           maxHeight: 425,
         ),
       );
+      final BARPosition = layoutChild(
+        41,
+        const BoxConstraints(
+          maxWidth: 425,
+          maxHeight: 425,
+        ),
+      );
+      final NORPosition = layoutChild(
+        42,
+        const BoxConstraints(
+          maxWidth: 222,
+          maxHeight: 217,
+        ),
+      );
+      final STPPosition = layoutChild(
+        43,
+        const BoxConstraints(
+          maxWidth: 222,
+          maxHeight: 220,
+        ),
+      );
+      final FINPosition = layoutChild(
+        44,
+        const BoxConstraints(
+          maxWidth: 175,
+          maxHeight: 175,
+        ),
+      );
+      final SWEPosition = layoutChild(
+        45,
+        const BoxConstraints(
+          maxWidth: 120,
+          maxHeight: 120,
+        ),
+      );
+      final GOBPosition = layoutChild(
+        46,
+        const BoxConstraints(
+          maxWidth: 220,
+          maxHeight: 220,
+        ),
+      );
+      final BALPosition = layoutChild(
+        47,
+        const BoxConstraints(
+          maxWidth: 175,
+          maxHeight: 175,
+        ),
+      );
+      final BERPosition = layoutChild(
+        48,
+        const BoxConstraints(
+          maxWidth: 156,
+          maxHeight: 156,
+        ),
+      );
+      final LVNPosition = layoutChild(
+        49,
+        const BoxConstraints(
+          maxWidth: 185,
+          maxHeight: 185,
+        ),
+      );
+      final MOSPosition = layoutChild(
+        50,
+        const BoxConstraints(
+          maxWidth: 156,
+          maxHeight: 156,
+        ),
+      );
+      final WARPosition = layoutChild(
+        51,
+        const BoxConstraints(
+          maxWidth: 218,
+          maxHeight: 218,
+        ),
+      );
+      final PRUPosition = layoutChild(
+        52,
+        const BoxConstraints(
+          maxWidth: 120,
+          maxHeight: 120,
+        ),
+      );
+      final SILPosition = layoutChild(
+        53,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final GALPosition = layoutChild(
+        54,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final MUNPosition = layoutChild(
+        55,
+        const BoxConstraints(
+          maxWidth: 190,
+          maxHeight: 190,
+        ),
+      );
+      final BOHPosition = layoutChild(
+        56,
+        const BoxConstraints(
+          maxWidth: 185,
+          maxHeight: 185,
+        ),
+      );
+      final VIEPosition = layoutChild(
+        57,
+        const BoxConstraints(
+          maxWidth: 190,
+          maxHeight: 190,
+        ),
+      );
+      final CROPosition = layoutChild(
+        58,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final ADRPosition = layoutChild(
+        59,
+        const BoxConstraints(
+          maxWidth: 174,
+          maxHeight: 174,
+        ),
+      );
+      final IONPosition = layoutChild(
+        60,
+        const BoxConstraints(
+          maxWidth: 375,
+          maxHeight: 365,
+        ),
+      );
+      final SEVPosition = layoutChild(
+        61,
+        const BoxConstraints(
+          maxWidth: 200,
+          maxHeight: 200,
+        ),
+      );
+      final ARMPosition = layoutChild(
+        62,
+        const BoxConstraints(
+          maxWidth: 400,
+          maxHeight: 400,
+        ),
+      );
+      final SYRPosition = layoutChild(
+        63,
+        const BoxConstraints(
+          maxWidth: 200,
+          maxHeight: 200,
+        ),
+      );
+      final UKRPosition = layoutChild(
+        64,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final RUMPosition = layoutChild(
+        65,
+        const BoxConstraints(
+          maxWidth: 240,
+          maxHeight: 240,
+        ),
+      );
+      final BLAPosition = layoutChild(
+        66,
+        const BoxConstraints(
+          maxWidth: 295,
+          maxHeight: 295,
+        ),
+      );
+      final BUDPosition = layoutChild(
+        67,
+        const BoxConstraints(
+          maxWidth: 200,
+          maxHeight: 200,
+        ),
+      );
+      final TRIPosition = layoutChild(
+        68,
+        const BoxConstraints(
+          maxWidth: 175,
+          maxHeight: 175,
+        ),
+      );
+      final ALBPosition = layoutChild(
+        69,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final SERPosition = layoutChild(
+        70,
+        const BoxConstraints(
+          maxWidth: 175,
+          maxHeight: 175,
+        ),
+      );
+      final BULPosition = layoutChild(
+        71,
+        const BoxConstraints(
+          maxWidth: 195,
+          maxHeight: 195,
+        ),
+      );
+      final ANKPosition = layoutChild(
+        72,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final CONPosition = layoutChild(
+        73,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final GREPosition = layoutChild(
+        74,
+        const BoxConstraints(
+          maxWidth: 155,
+          maxHeight: 155,
+        ),
+      );
+      final SMVPosition = layoutChild(
+        75,
+        const BoxConstraints(
+          maxWidth: 175,
+          maxHeight: 175,
+        ),
+      );
+      final EMEPosition = layoutChild(
+        76,
+        const BoxConstraints(
+          maxWidth: 180,
+          maxHeight: 180,
+        ),
+      );
+      final AEGPosition = layoutChild(
+        77,
+        const BoxConstraints(
+          maxWidth: 180,
+          maxHeight: 180,
+        ),
+      );
 
       positionChild(1, Offset(-105, 433));
       positionChild(2, Offset(-334, -70.5));
@@ -604,7 +1084,7 @@ class MyDelegate extends MultiChildLayoutDelegate {
       positionChild(24, Offset(-67, 4));
       positionChild(25, Offset(-87.5, 29));
       positionChild(26, Offset(-68.5, 155.5));
-      positionChild(27, Offset(-49.5, 307)); 
+      positionChild(27, Offset(-49.5, 307));
       positionChild(28, Offset(-44.9, 45));
       positionChild(29, Offset(-35.5, 87.7));
       positionChild(30, Offset(-35.8, 179));
@@ -618,6 +1098,43 @@ class MyDelegate extends MultiChildLayoutDelegate {
       positionChild(38, Offset(45.5, -17.6));
       positionChild(39, Offset(96.5, -51));
       positionChild(40, Offset(44, 288));
+      positionChild(41, Offset(179, -158));
+      positionChild(42, Offset(251, -11));
+      positionChild(43, Offset(369, 23));
+      positionChild(44, Offset(298, 59));
+      positionChild(45, Offset(270, 47));
+      positionChild(46, Offset(258, 68));
+      positionChild(47, Offset(241, 72));
+      positionChild(48, Offset(245, 139));
+      positionChild(49, Offset(289, 130));
+      positionChild(50, Offset(377, 184));
+      positionChild(51, Offset(288, 158));
+      positionChild(52, Offset(297, 185));
+      positionChild(53, Offset(246, 189));
+      positionChild(54, Offset(272, 234));
+      positionChild(55, Offset(170, 172));
+      positionChild(56, Offset(180, 222));
+      positionChild(57, Offset(192, 285));
+      positionChild(58, Offset(192, 383));
+      positionChild(59, Offset(184, 438));
+      positionChild(60, Offset(115, 431));
+      positionChild(61, Offset(377, 211));
+      positionChild(62, Offset(319, 225));
+      positionChild(63, Offset(377, 472));
+      positionChild(64, Offset(336, 253));
+      positionChild(65, Offset(280, 260));
+      positionChild(66, Offset(335, 267));
+      positionChild(67, Offset(215, 293));
+      positionChild(68, Offset(222, 405));
+      positionChild(69, Offset(218, 465));
+      positionChild(70, Offset(251, 421));
+      positionChild(71, Offset(305, 375));
+      positionChild(72, Offset(329, 445));
+      positionChild(73, Offset(352, 406));
+      positionChild(74, Offset(260, 490));
+      positionChild(75, Offset(360, 430));
+      positionChild(76, Offset(295, 545));
+      positionChild(77, Offset(265, 515));
     }
   }
 
