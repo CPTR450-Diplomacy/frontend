@@ -676,7 +676,7 @@ class ProvinceNameDelegate extends MultiChildLayoutDelegate {
       positionChild(38, Offset(243, 222)); // RUH
       positionChild(39, Offset(283, 170)); // KIE
       positionChild(40, Offset(227, 520)); // APU
-      positionChild(41, Offset(310, 0)); // BAR
+      positionChild(41, Offset(311, 0)); // BAR
       positionChild(42, Offset(310, 20)); // NOR
       positionChild(43, Offset(310.2, 40)); // STP
       positionChild(44, Offset(310.1, 60)); // FIN
