@@ -35,7 +35,7 @@ class HexMapState extends State<HexMap> {
                 color: Colors.black,
                 child: SizedBox(
                     height: 660.0,
-                    width: 500.0,
+                    width: 464.0,
                     child: CustomMultiChildLayout(
                       delegate: MyDelegate(),
                       children: [
@@ -487,7 +487,7 @@ class HexMapState extends State<HexMap> {
                         LayoutId(
                             id: 75,
                             child: SvgPicture.string(
-                              SMV,
+                              SMY,
                               color: Color(0xFFFFF9BD),
                             )),
                         LayoutId(
@@ -815,8 +815,8 @@ class MyDelegate extends MultiChildLayoutDelegate {
       final STPPosition = layoutChild(
         43,
         const BoxConstraints(
-          maxWidth: 222,
-          maxHeight: 220,
+          maxWidth: 229,
+          maxHeight: 229,
         ),
       );
       final FINPosition = layoutChild(
@@ -836,22 +836,22 @@ class MyDelegate extends MultiChildLayoutDelegate {
       final GOBPosition = layoutChild(
         46,
         const BoxConstraints(
-          maxWidth: 220,
-          maxHeight: 220,
+          maxWidth: 217,
+          maxHeight: 217,
         ),
       );
       final BALPosition = layoutChild(
         47,
         const BoxConstraints(
-          maxWidth: 175,
-          maxHeight: 175,
+          maxWidth: 170,
+          maxHeight: 190,
         ),
       );
       final BERPosition = layoutChild(
         48,
         const BoxConstraints(
-          maxWidth: 156,
-          maxHeight: 156,
+          maxWidth: 155,
+          maxHeight: 175,
         ),
       );
       final LVNPosition = layoutChild(
@@ -864,8 +864,8 @@ class MyDelegate extends MultiChildLayoutDelegate {
       final MOSPosition = layoutChild(
         50,
         const BoxConstraints(
-          maxWidth: 156,
-          maxHeight: 156,
+          maxWidth: 160,
+          maxHeight: 160,
         ),
       );
       final WARPosition = layoutChild(
@@ -885,29 +885,29 @@ class MyDelegate extends MultiChildLayoutDelegate {
       final SILPosition = layoutChild(
         53,
         const BoxConstraints(
-          maxWidth: 155,
-          maxHeight: 155,
+          maxWidth: 168,
+          maxHeight: 168,
         ),
       );
       final GALPosition = layoutChild(
         54,
         const BoxConstraints(
-          maxWidth: 155,
-          maxHeight: 155,
+          maxWidth: 165,
+          maxHeight: 165,
         ),
       );
       final MUNPosition = layoutChild(
         55,
         const BoxConstraints(
-          maxWidth: 190,
-          maxHeight: 190,
+          maxWidth: 192,
+          maxHeight: 192,
         ),
       );
       final BOHPosition = layoutChild(
         56,
         const BoxConstraints(
-          maxWidth: 185,
-          maxHeight: 185,
+          maxWidth: 180,
+          maxHeight: 180,
         ),
       );
       final VIEPosition = layoutChild(
@@ -920,29 +920,29 @@ class MyDelegate extends MultiChildLayoutDelegate {
       final CROPosition = layoutChild(
         58,
         const BoxConstraints(
-          maxWidth: 155,
-          maxHeight: 155,
+          maxWidth: 162,
+          maxHeight: 162,
         ),
       );
       final ADRPosition = layoutChild(
         59,
         const BoxConstraints(
-          maxWidth: 174,
-          maxHeight: 174,
+          maxWidth: 160,
+          maxHeight: 160,
         ),
       );
       final IONPosition = layoutChild(
         60,
         const BoxConstraints(
-          maxWidth: 375,
-          maxHeight: 365,
+          maxWidth: 390,
+          maxHeight: 390,
         ),
       );
       final SEVPosition = layoutChild(
         61,
         const BoxConstraints(
-          maxWidth: 200,
-          maxHeight: 200,
+          maxWidth: 235,
+          maxHeight: 235,
         ),
       );
       final ARMPosition = layoutChild(
@@ -955,71 +955,71 @@ class MyDelegate extends MultiChildLayoutDelegate {
       final SYRPosition = layoutChild(
         63,
         const BoxConstraints(
-          maxWidth: 200,
-          maxHeight: 200,
+          maxWidth: 220,
+          maxHeight: 220,
         ),
       );
       final UKRPosition = layoutChild(
         64,
         const BoxConstraints(
-          maxWidth: 155,
-          maxHeight: 155,
+          maxWidth: 164,
+          maxHeight: 164,
         ),
       );
       final RUMPosition = layoutChild(
         65,
         const BoxConstraints(
-          maxWidth: 240,
-          maxHeight: 240,
+          maxWidth: 250,
+          maxHeight: 250,
         ),
       );
       final BLAPosition = layoutChild(
         66,
         const BoxConstraints(
-          maxWidth: 295,
-          maxHeight: 295,
+          maxWidth: 312,
+          maxHeight: 312,
         ),
       );
       final BUDPosition = layoutChild(
         67,
         const BoxConstraints(
-          maxWidth: 200,
-          maxHeight: 200,
+          maxWidth: 192,
+          maxHeight: 192,
         ),
       );
       final TRIPosition = layoutChild(
         68,
         const BoxConstraints(
-          maxWidth: 175,
-          maxHeight: 175,
+          maxWidth: 161,
+          maxHeight: 161,
         ),
       );
       final ALBPosition = layoutChild(
         69,
         const BoxConstraints(
-          maxWidth: 155,
-          maxHeight: 155,
+          maxWidth: 160,
+          maxHeight: 160,
         ),
       );
       final SERPosition = layoutChild(
         70,
         const BoxConstraints(
-          maxWidth: 175,
-          maxHeight: 175,
+          maxWidth: 162,
+          maxHeight: 162,
         ),
       );
       final BULPosition = layoutChild(
         71,
         const BoxConstraints(
-          maxWidth: 195,
-          maxHeight: 195,
+          maxWidth: 212,
+          maxHeight: 245,
         ),
       );
       final ANKPosition = layoutChild(
         72,
         const BoxConstraints(
-          maxWidth: 155,
-          maxHeight: 155,
+          maxWidth: 163,
+          maxHeight: 163,
         ),
       );
       final CONPosition = layoutChild(
@@ -1032,109 +1032,109 @@ class MyDelegate extends MultiChildLayoutDelegate {
       final GREPosition = layoutChild(
         74,
         const BoxConstraints(
-          maxWidth: 155,
-          maxHeight: 155,
+          maxWidth: 175,
+          maxHeight: 157,
         ),
       );
-      final SMVPosition = layoutChild(
+      final SMYPosition = layoutChild(
         75,
         const BoxConstraints(
-          maxWidth: 175,
-          maxHeight: 175,
+          maxWidth: 220,
+          maxHeight: 220,
         ),
       );
       final EMEPosition = layoutChild(
         76,
         const BoxConstraints(
-          maxWidth: 180,
-          maxHeight: 180,
+          maxWidth: 252,
+          maxHeight: 252,
         ),
       );
       final AEGPosition = layoutChild(
         77,
         const BoxConstraints(
-          maxWidth: 180,
-          maxHeight: 180,
+          maxWidth: 160,
+          maxHeight: 160,
         ),
       );
 
-      positionChild(1, Offset(-105, 433));
-      positionChild(2, Offset(-334, -70.5));
-      positionChild(3, Offset(-172.5, -158.3));
-      positionChild(4, Offset(-104.3, -41));
-      positionChild(5, Offset(20.5, -141.5));
-      positionChild(6, Offset(-118.5, 2.5));
-      positionChild(7, Offset(-68, 441));
-      positionChild(8, Offset(24.7, -59));
-      positionChild(9, Offset(-102, 367));
-      positionChild(10, Offset(-22.2, 412.8));
-      positionChild(11, Offset(-61, -170));
-      positionChild(12, Offset(-61, -139.5));
-      positionChild(13, Offset(-61, -108.8));
-      positionChild(14, Offset(-8, -169.8));
-      positionChild(15, Offset(-8, -109.7));
-      positionChild(16, Offset(-34.5, -64));
-      positionChild(17, Offset(71, -155));
-      positionChild(18, Offset(71, -124.7));
-      positionChild(19, Offset(71.2, -94.2));
-      positionChild(20, Offset(-122, 32));
-      positionChild(21, Offset(-119, 96.5));
-      positionChild(22, Offset(-140.4, 182.5));
-      positionChild(23, Offset(-124, 240));
-      positionChild(24, Offset(-67, 4));
-      positionChild(25, Offset(-87.5, 29));
-      positionChild(26, Offset(-68.5, 155.5));
-      positionChild(27, Offset(-49.5, 307));
-      positionChild(28, Offset(-44.9, 45));
-      positionChild(29, Offset(-35.5, 87.7));
-      positionChild(30, Offset(-35.8, 179));
-      positionChild(31, Offset(-15.3, 279));
-      positionChild(32, Offset(-8, -17));
-      positionChild(33, Offset(12, 140));
-      positionChild(34, Offset(22, 245));
-      positionChild(35, Offset(-4.6, 293.3));
-      positionChild(36, Offset(18.5, 335.6));
-      positionChild(37, Offset(45.5, -47.6));
-      positionChild(38, Offset(45.5, -17.6));
-      positionChild(39, Offset(96.5, -51));
-      positionChild(40, Offset(44, 288));
-      positionChild(41, Offset(179, -158));
-      positionChild(42, Offset(251, -11));
-      positionChild(43, Offset(369, 23));
-      positionChild(44, Offset(298, 59));
-      positionChild(45, Offset(270, 47));
-      positionChild(46, Offset(258, 68));
-      positionChild(47, Offset(241, 72));
-      positionChild(48, Offset(245, 139));
-      positionChild(49, Offset(289, 130));
-      positionChild(50, Offset(377, 184));
-      positionChild(51, Offset(288, 158));
-      positionChild(52, Offset(297, 185));
-      positionChild(53, Offset(246, 189));
-      positionChild(54, Offset(272, 234));
-      positionChild(55, Offset(170, 172));
-      positionChild(56, Offset(180, 222));
-      positionChild(57, Offset(192, 285));
-      positionChild(58, Offset(192, 383));
-      positionChild(59, Offset(184, 438));
-      positionChild(60, Offset(115, 431));
-      positionChild(61, Offset(377, 211));
-      positionChild(62, Offset(319, 225));
-      positionChild(63, Offset(377, 472));
-      positionChild(64, Offset(336, 253));
-      positionChild(65, Offset(280, 260));
-      positionChild(66, Offset(335, 267));
-      positionChild(67, Offset(215, 293));
-      positionChild(68, Offset(222, 405));
-      positionChild(69, Offset(218, 465));
-      positionChild(70, Offset(251, 421));
-      positionChild(71, Offset(305, 375));
-      positionChild(72, Offset(329, 445));
-      positionChild(73, Offset(352, 406));
-      positionChild(74, Offset(260, 490));
-      positionChild(75, Offset(360, 430));
-      positionChild(76, Offset(295, 545));
-      positionChild(77, Offset(265, 515));
+      positionChild(1, Offset(-105, 433));       // NAF
+      positionChild(2, Offset(-334, -70.5));     // MAT
+      positionChild(3, Offset(-172.5, -158.3));  // NAT
+      positionChild(4, Offset(-104.3, -41));     // IRI
+      positionChild(5, Offset(20.5, -141.5));    // NWG
+      positionChild(6, Offset(-118.5, 2.5));     // ENG
+      positionChild(7, Offset(-68, 441));        // TUN
+      positionChild(8, Offset(24.7, -59));       // NTH
+      positionChild(9, Offset(-102, 367));       // WME
+      positionChild(10, Offset(-22.2, 412.8));   // TYS
+      positionChild(11, Offset(-61, -170));      // CLY
+      positionChild(12, Offset(-61, -139.5));    // LVP
+      positionChild(13, Offset(-61, -108.8));    // WAL
+      positionChild(14, Offset(-8, -169.8));     // EDI
+      positionChild(15, Offset(-8, -109.7));     // YOR
+      positionChild(16, Offset(-34.5, -64));     // LON
+      positionChild(17, Offset(71, -155));       // SKA
+      positionChild(18, Offset(71, -124.7));     // DEN
+      positionChild(19, Offset(71.2, -94.2));    // HEL
+      positionChild(20, Offset(-122, 32));       // BRE
+      positionChild(21, Offset(-119, 96.5));     // GAS
+      positionChild(22, Offset(-140.4, 182.5));  // POR
+      positionChild(23, Offset(-124, 240));      // SPA
+      positionChild(24, Offset(-67, 4));         // PIC
+      positionChild(25, Offset(-87.5, 29));      // PAR
+      positionChild(26, Offset(-68.5, 155.5));   // MAR
+      positionChild(27, Offset(-49.5, 307));     // GOL
+      positionChild(28, Offset(-44.9, 45));      // BUR
+      positionChild(29, Offset(-35.5, 87.7));    // BLANK
+      positionChild(30, Offset(-35.8, 179));     // PIE
+      positionChild(31, Offset(-15.3, 279));     // TUS
+      positionChild(32, Offset(-8, -17));        // BEL
+      positionChild(33, Offset(12, 140));        // TYR
+      positionChild(34, Offset(22, 245));        // VEN
+      positionChild(35, Offset(-4.6, 293.3));    // ROM
+      positionChild(36, Offset(18.5, 335.6));    // NAP
+      positionChild(37, Offset(45.5, -47.6));    // HOL
+      positionChild(38, Offset(45.5, -17.6));    // RUH
+      positionChild(39, Offset(95.8, -51));      // KIE
+      positionChild(40, Offset(43, 288));        // APU
+      positionChild(41, Offset(177, -158));      // BAR
+      positionChild(42, Offset(249, -11));       // NOR
+      positionChild(43, Offset(365.2, 17.8));        // STP
+      positionChild(44, Offset(296.1, 59));        // FIN
+      positionChild(45, Offset(268.5, 47));        // SWE
+      positionChild(46, Offset(258, 69));        // GOB
+      positionChild(47, Offset(242, 64));        // BAL
+      positionChild(48, Offset(243.5, 130));       // BER
+      positionChild(49, Offset(288, 129));       // LVN
+      positionChild(50, Offset(375, 184));       // MOS
+      positionChild(51, Offset(288, 159));       // WAR
+      positionChild(52, Offset(296, 185));       // PRU
+      positionChild(53, Offset(238, 184));       // SIL
+      positionChild(54, Offset(266, 232));       // GAL
+      positionChild(55, Offset(167, 170.5));       // MUN
+      positionChild(56, Offset(181, 225));       // BOH
+      positionChild(57, Offset(190, 285));       // VIE
+      positionChild(58, Offset(189, 381.5));       // CRO
+      positionChild(59, Offset(188, 443));       // ADR
+      positionChild(60, Offset(112, 419.5));       // ION
+      positionChild(61, Offset(365, 202));       // SEV
+      positionChild(62, Offset(319, 242));       // ARM
+      positionChild(63, Offset(369.5, 480.5));       // SYR
+      positionChild(64, Offset(330.5, 253));       // UKR
+      positionChild(65, Offset(272, 259));       // RUM
+      positionChild(66, Offset(328, 266.5));       // BLA
+      positionChild(67, Offset(216, 297));       // BUD
+      positionChild(68, Offset(226, 405));       // TRI
+      positionChild(69, Offset(214.3, 458));       // ALB
+      positionChild(70, Offset(251.5, 420.5));       // SER
+      positionChild(71, Offset(291, 364));       // BUL
+      positionChild(72, Offset(347, 413));       // ANK
+      positionChild(73, Offset(322, 462));       // CON
+      positionChild(74, Offset(244, 482));       // GRE
+      positionChild(75, Offset(342, 436));       // SMY
+      positionChild(76, Offset(259.7, 500.5));       // EME
+      positionChild(77, Offset(261.8, 517.2));       // AEG
     }
   }
 

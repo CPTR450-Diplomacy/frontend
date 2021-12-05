@@ -2807,7 +2807,7 @@ var CON =
   </g>
 </svg>''';
 
-var SMV =
+var SMY =
     '''<svg version="1.1" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
   <g transform="scale(2,2)">
     <g id="background-36f32bf0"/>
