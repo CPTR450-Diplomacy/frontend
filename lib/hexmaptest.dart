@@ -44,463 +44,463 @@ class HexMapState extends State<HexMap> {
                             child: SvgPicture.string(
                               NAF,
                               width: 400.0,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 2,
                             child: SvgPicture.string(
                               MAT,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 3,
                             child: SvgPicture.string(
                               NAT,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 4,
                             child: SvgPicture.string(
                               IRI,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 5,
                             child: SvgPicture.string(
                               NWG,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 6,
                             child: SvgPicture.string(
                               ENG,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 7,
                             child: SvgPicture.string(
                               TUN,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 8,
                             child: SvgPicture.string(
                               NTH,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 9,
                             child: SvgPicture.string(
                               WME,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 10,
                             child: SvgPicture.string(
                               TYS,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 11,
                             child: SvgPicture.string(
                               CLY,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 12,
                             child: SvgPicture.string(
                               LVP,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFF999ff4),
                             )),
                         LayoutId(
                             id: 13,
                             child: SvgPicture.string(
                               WAL,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 14,
                             child: SvgPicture.string(
                               EDI,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFF999ff4),
                             )),
                         LayoutId(
                             id: 15,
                             child: SvgPicture.string(
                               YOR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 16,
                             child: SvgPicture.string(
                               LON,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFF999ff4),
                             )),
                         LayoutId(
                             id: 17,
                             child: SvgPicture.string(
                               SKA,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 18,
                             child: SvgPicture.string(
                               DEN,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 19,
                             child: SvgPicture.string(
                               HEL,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 20,
                             child: SvgPicture.string(
                               BRE,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFb4ded9),
                             )),
                         LayoutId(
                             id: 21,
                             child: SvgPicture.string(
                               GAS,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 22,
                             child: SvgPicture.string(
                               POR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 23,
                             child: SvgPicture.string(
                               SPA,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 24,
                             child: SvgPicture.string(
                               PIC,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 25,
                             child: SvgPicture.string(
                               PAR,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFb4ded9),
                             )),
                         LayoutId(
                             id: 26,
                             child: SvgPicture.string(
                               MAR,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFb4ded9),
                             )),
                         LayoutId(
                             id: 27,
                             child: SvgPicture.string(
                               GOL,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 28,
                             child: SvgPicture.string(
                               BUR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 29,
                             child: SvgPicture.string(
                               BLANK,
-                              color: Colors.grey[400],
+                              color: Colors.black,
                             )),
                         LayoutId(
                             id: 30,
                             child: SvgPicture.string(
                               PIE,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 31,
                             child: SvgPicture.string(
                               TUS,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 32,
                             child: SvgPicture.string(
                               BEL,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 33,
                             child: SvgPicture.string(
                               TYR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 34,
                             child: SvgPicture.string(
                               VEN,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFbfd19d),
                             )),
                         LayoutId(
                             id: 35,
                             child: SvgPicture.string(
                               ROM,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFbfd19d),
                             )),
                         LayoutId(
                             id: 36,
                             child: SvgPicture.string(
                               NAP,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFbfd19d),
                             )),
                         LayoutId(
                             id: 37,
                             child: SvgPicture.string(
                               HOL,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 38,
                             child: SvgPicture.string(
                               RUH,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 39,
                             child: SvgPicture.string(
                               KIE,
-                              color: Color(0xFFF5E49C),
+                              color: Color(0xFFf4cf99),
                             )),
                         LayoutId(
                             id: 40,
                             child: SvgPicture.string(
                               APU,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 41,
                             child: SvgPicture.string(
                               BAR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 42,
                             child: SvgPicture.string(
                               NOR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 43,
                             child: SvgPicture.string(
                               STP,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFd399f4),
                             )),
                         LayoutId(
                             id: 44,
                             child: SvgPicture.string(
                               FIN,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 45,
                             child: SvgPicture.string(
                               SWE,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 46,
                             child: SvgPicture.string(
                               GOB,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 47,
                             child: SvgPicture.string(
                               BAL,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 48,
                             child: SvgPicture.string(
                               BER,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf4cf99),
                             )),
                         LayoutId(
                             id: 49,
                             child: SvgPicture.string(
                               LVN,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 50,
                             child: SvgPicture.string(
                               MOS,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFd399f4),
                             )),
                         LayoutId(
                             id: 51,
                             child: SvgPicture.string(
                               WAR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFd399f4),
                             )),
                         LayoutId(
                             id: 52,
                             child: SvgPicture.string(
                               PRU,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 53,
                             child: SvgPicture.string(
                               SIL,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 54,
                             child: SvgPicture.string(
                               GAL,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 55,
                             child: SvgPicture.string(
                               MUN,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf4cf99),
                             )),
                         LayoutId(
                             id: 56,
                             child: SvgPicture.string(
                               BOH,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 57,
                             child: SvgPicture.string(
                               VIE,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf0b097),
                             )),
                         LayoutId(
                             id: 58,
                             child: SvgPicture.string(
                               CRO,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 59,
                             child: SvgPicture.string(
                               ADR,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 60,
                             child: SvgPicture.string(
                               ION,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 61,
                             child: SvgPicture.string(
                               SEV,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFd399f4),
                             )),
                         LayoutId(
                             id: 62,
                             child: SvgPicture.string(
                               ARM,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 63,
                             child: SvgPicture.string(
                               SYR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 64,
                             child: SvgPicture.string(
                               UKR,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 65,
                             child: SvgPicture.string(
                               RUM,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 66,
                             child: SvgPicture.string(
                               BLA,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 67,
                             child: SvgPicture.string(
                               BUD,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf0b097),
                             )),
                         LayoutId(
                             id: 68,
                             child: SvgPicture.string(
                               TRI,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf0b097),
                             )),
                         LayoutId(
                             id: 69,
                             child: SvgPicture.string(
                               ALB,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 70,
                             child: SvgPicture.string(
                               SER,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 71,
                             child: SvgPicture.string(
                               BUL,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 72,
                             child: SvgPicture.string(
                               ANK,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf4dd99),
                             )),
                         LayoutId(
                             id: 73,
                             child: SvgPicture.string(
                               CON,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf4dd99),
                             )),
                         LayoutId(
                             id: 74,
                             child: SvgPicture.string(
                               GRE,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFCBCBCB),
                             )),
                         LayoutId(
                             id: 75,
                             child: SvgPicture.string(
                               SMY,
-                              color: Color(0xFFFFF9BD),
+                              color: Color(0xFFf4dd99),
                             )),
                         LayoutId(
                             id: 76,
                             child: SvgPicture.string(
                               EME,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             )),
                         LayoutId(
                             id: 77,
                             child: SvgPicture.string(
                               AEG,
-                              color: Color(0xFF9AD9EA),
+                              color: Color(0xFF3E7182),
                             ))
                       ],
                     ))),
