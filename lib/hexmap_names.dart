@@ -8,83 +8,463 @@ Widget HexmapNames = Container(
         width: 464.0,
         child:
             CustomMultiChildLayout(delegate: ProvinceNameDelegate(), children: [
-          LayoutId(id: 1, child: Text("NAF", textScaleFactor: 0.6,)),
-          LayoutId(id: 2, child: Text("MAT", textScaleFactor: 0.6,)),
-          LayoutId(id: 3, child: Text("NAT", textScaleFactor: 0.6,)),
-          LayoutId(id: 4, child: Text("IRI", textScaleFactor: 0.6,)),
-          LayoutId(id: 5, child: Text("NWG", textScaleFactor: 0.6,)),
-          LayoutId(id: 6, child: Text("ENG", textScaleFactor: 0.6,)),
-          LayoutId(id: 7, child: Text("TUN", textScaleFactor: 0.6,)),
-          LayoutId(id: 8, child: Text("NTH", textScaleFactor: 0.6,)),
-          LayoutId(id: 9, child: Text("WME", textScaleFactor: 0.6,)),
-          LayoutId(id: 10, child: Text("TYS", textScaleFactor: 0.6,)),
-          LayoutId(id: 11, child: Text("CLY", textScaleFactor: 0.6,)),
-          LayoutId(id: 12, child: Text("LVP", textScaleFactor: 0.6,)),
-          LayoutId(id: 13, child: Text("WAL", textScaleFactor: 0.6,)),
-          LayoutId(id: 14, child: Text("EDI", textScaleFactor: 0.6,)),
-          LayoutId(id: 15, child: Text("YOR", textScaleFactor: 0.6,)),
-          LayoutId(id: 16, child: Text("LON", textScaleFactor: 0.6,)),
-          LayoutId(id: 17, child: Text("SKA", textScaleFactor: 0.6,)),
-          LayoutId(id: 18, child: Text("DEN", textScaleFactor: 0.6,)),
-          LayoutId(id: 19, child: Text("HEL", textScaleFactor: 0.6,)),
-          LayoutId(id: 20, child: Text("BRE", textScaleFactor: 0.6,)),
-          LayoutId(id: 21, child: Text("GAS", textScaleFactor: 0.6,)),
-          LayoutId(id: 22, child: Text("POR", textScaleFactor: 0.6,)),
-          LayoutId(id: 23, child: Text("SPA", textScaleFactor: 0.6,)),
-          LayoutId(id: 24, child: Text("PIC", textScaleFactor: 0.6,)),
-          LayoutId(id: 25, child: Text("PAR", textScaleFactor: 0.6,)),
-          LayoutId(id: 26, child: Text("MAR", textScaleFactor: 0.6,)),
-          LayoutId(id: 27, child: Text("GOL", textScaleFactor: 0.6,)),
-          LayoutId(id: 28, child: Text("BUR", textScaleFactor: 0.6,)),
+          LayoutId(
+              id: 1,
+              child: Text(
+                "NAF",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 2,
+              child: Text(
+                "MAT",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 3,
+              child: Text(
+                "NAT",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 4,
+              child: Text(
+                "IRI",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 5,
+              child: Text(
+                "NWG",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 6,
+              child: Text(
+                "ENG",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 7,
+              child: Text(
+                "TUN",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 8,
+              child: Text(
+                "NTH",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 9,
+              child: Text(
+                "WME",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 10,
+              child: Text(
+                "TYS",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 11,
+              child: Text(
+                "CLY",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 12,
+              child: Text(
+                "LVP",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 13,
+              child: Text(
+                "WAL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 14,
+              child: Text(
+                "EDI",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 15,
+              child: Text(
+                "YOR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 16,
+              child: Text(
+                "LON",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 17,
+              child: Text(
+                "SKA",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 18,
+              child: Text(
+                "DEN",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 19,
+              child: Text(
+                "HEL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 20,
+              child: Text(
+                "BRE",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 21,
+              child: Text(
+                "GAS",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 22,
+              child: Text(
+                "POR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 23,
+              child: Text(
+                "SPA",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 24,
+              child: Text(
+                "PIC",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 25,
+              child: Text(
+                "PAR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 26,
+              child: Text(
+                "MAR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 27,
+              child: Text(
+                "GOL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 28,
+              child: Text(
+                "BUR",
+                textScaleFactor: 0.6,
+              )),
           LayoutId(id: 29, child: Text("")),
-          LayoutId(id: 30, child: Text("PIE", textScaleFactor: 0.6,)),
-          LayoutId(id: 31, child: Text("TUS", textScaleFactor: 0.6,)),
-          LayoutId(id: 32, child: Text("BEL", textScaleFactor: 0.6,)),
-          LayoutId(id: 33, child: Text("TYR", textScaleFactor: 0.6,)),
-          LayoutId(id: 34, child: Text("VEN", textScaleFactor: 0.6,)),
-          LayoutId(id: 35, child: Text("ROM", textScaleFactor: 0.6,)),
-          LayoutId(id: 36, child: Text("NAP", textScaleFactor: 0.6,)),
-          LayoutId(id: 37, child: Text("HOL", textScaleFactor: 0.6,)),
-          LayoutId(id: 38, child: Text("RUH", textScaleFactor: 0.6,)),
-          LayoutId(id: 39, child: Text("KIE", textScaleFactor: 0.6,)),
-          LayoutId(id: 40, child: Text("APU", textScaleFactor: 0.6,)),
-          LayoutId(id: 41, child: Text("BAR", textScaleFactor: 0.6,)),
-          LayoutId(id: 42, child: Text("NOR", textScaleFactor: 0.6,)),
-          LayoutId(id: 43, child: Text("STP", textScaleFactor: 0.6,)),
-          LayoutId(id: 44, child: Text("FIN", textScaleFactor: 0.6,)),
-          LayoutId(id: 45, child: Text("SWE", textScaleFactor: 0.6,)),
-          LayoutId(id: 46, child: Text("GOB", textScaleFactor: 0.6,)),
-          LayoutId(id: 47, child: Text("BAL", textScaleFactor: 0.6,)),
-          LayoutId(id: 48, child: Text("BER", textScaleFactor: 0.6,)),
-          LayoutId(id: 49, child: Text("LVN", textScaleFactor: 0.6,)),
-          LayoutId(id: 50, child: Text("MOS", textScaleFactor: 0.6,)),
-          LayoutId(id: 51, child: Text("WAR", textScaleFactor: 0.6,)),
-          LayoutId(id: 52, child: Text("PRU", textScaleFactor: 0.6,)),
-          LayoutId(id: 53, child: Text("SIL", textScaleFactor: 0.6,)),
-          LayoutId(id: 54, child: Text("GAL", textScaleFactor: 0.6,)),
-          LayoutId(id: 55, child: Text("MUN", textScaleFactor: 0.6,)),
-          LayoutId(id: 56, child: Text("BOH", textScaleFactor: 0.6,)),
-          LayoutId(id: 57, child: Text("VIE", textScaleFactor: 0.6,)),
-          LayoutId(id: 58, child: Text("CRO", textScaleFactor: 0.6,)),
-          LayoutId(id: 59, child: Text("ADR", textScaleFactor: 0.6,)),
-          LayoutId(id: 60, child: Text("ION", textScaleFactor: 0.6,)),
-          LayoutId(id: 61, child: Text("SEV", textScaleFactor: 0.6,)),
-          LayoutId(id: 62, child: Text("ARM", textScaleFactor: 0.6,)),
-          LayoutId(id: 63, child: Text("SYR", textScaleFactor: 0.6,)),
-          LayoutId(id: 64, child: Text("UKR", textScaleFactor: 0.6,)),
-          LayoutId(id: 65, child: Text("RUM", textScaleFactor: 0.6,)),
-          LayoutId(id: 66, child: Text("BLA", textScaleFactor: 0.6,)),
-          LayoutId(id: 67, child: Text("BUD", textScaleFactor: 0.6,)),
-          LayoutId(id: 68, child: Text("TRI", textScaleFactor: 0.6,)),
-          LayoutId(id: 69, child: Text("ALB", textScaleFactor: 0.6,)),
-          LayoutId(id: 70, child: Text("SER", textScaleFactor: 0.6,)),
-          LayoutId(id: 71, child: Text("BUL", textScaleFactor: 0.6,)),
-          LayoutId(id: 72, child: Text("ANK", textScaleFactor: 0.6,)),
-          LayoutId(id: 73, child: Text("CON", textScaleFactor: 0.6,)),
-          LayoutId(id: 74, child: Text("GRE", textScaleFactor: 0.6,)),
-          LayoutId(id: 75, child: Text("SMY", textScaleFactor: 0.6,)),
-          LayoutId(id: 76, child: Text("EME", textScaleFactor: 0.6,)),
-          LayoutId(id: 77, child: Text("AEG", textScaleFactor: 0.6,)),
+          LayoutId(
+              id: 30,
+              child: Text(
+                "PIE",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 31,
+              child: Text(
+                "TUS",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 32,
+              child: Text(
+                "BEL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 33,
+              child: Text(
+                "TYR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 34,
+              child: Text(
+                "VEN",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 35,
+              child: Text(
+                "ROM",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 36,
+              child: Text(
+                "NAP",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 37,
+              child: Text(
+                "HOL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 38,
+              child: Text(
+                "RUH",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 39,
+              child: Text(
+                "KIE",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 40,
+              child: Text(
+                "APU",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 41,
+              child: Text(
+                "BAR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 42,
+              child: Text(
+                "NOR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 43,
+              child: Text(
+                "STP",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 44,
+              child: Text(
+                "FIN",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 45,
+              child: Text(
+                "SWE",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 46,
+              child: Text(
+                "GOB",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 47,
+              child: Text(
+                "BAL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 48,
+              child: Text(
+                "BER",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 49,
+              child: Text(
+                "LVN",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 50,
+              child: Text(
+                "MOS",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 51,
+              child: Text(
+                "WAR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 52,
+              child: Text(
+                "PRU",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 53,
+              child: Text(
+                "SIL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 54,
+              child: Text(
+                "GAL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 55,
+              child: Text(
+                "MUN",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 56,
+              child: Text(
+                "BOH",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 57,
+              child: Text(
+                "VIE",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 58,
+              child: Text(
+                "CRO",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 59,
+              child: Text(
+                "ADR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 60,
+              child: Text(
+                "ION",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 61,
+              child: Text(
+                "SEV",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 62,
+              child: Text(
+                "ARM",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 63,
+              child: Text(
+                "SYR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 64,
+              child: Text(
+                "UKR",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 65,
+              child: Text(
+                "RUM",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 66,
+              child: Text(
+                "BLA",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 67,
+              child: Text(
+                "BUD",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 68,
+              child: Text(
+                "TRI",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 69,
+              child: Text(
+                "ALB",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 70,
+              child: Text(
+                "SER",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 71,
+              child: Text(
+                "BUL",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 72,
+              child: Text(
+                "ANK",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 73,
+              child: Text(
+                "CON",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 74,
+              child: Text(
+                "GRE",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 75,
+              child: Text(
+                "SMY",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 76,
+              child: Text(
+                "EME",
+                textScaleFactor: 0.6,
+              )),
+          LayoutId(
+              id: 77,
+              child: Text(
+                "AEG",
+                textScaleFactor: 0.6,
+              )),
         ])));
 
 class ProvinceNameDelegate extends MultiChildLayoutDelegate {
@@ -636,7 +1016,7 @@ class ProvinceNameDelegate extends MultiChildLayoutDelegate {
         ),
       );
 
-      positionChild(1, Offset(43,585)); // NAF
+      positionChild(1, Offset(43, 585)); // NAF
       positionChild(2, Offset(16, 323)); // MAT
       positionChild(3, Offset(69, 49)); // NAT
       positionChild(4, Offset(73, 134)); // IRI
@@ -676,43 +1056,43 @@ class ProvinceNameDelegate extends MultiChildLayoutDelegate {
       positionChild(38, Offset(243, 222)); // RUH
       positionChild(39, Offset(283, 170)); // KIE
       positionChild(40, Offset(227, 520)); // APU
-      positionChild(41, Offset(311, 0)); // BAR
-      positionChild(42, Offset(310, 20)); // NOR
-      positionChild(43, Offset(310.2, 40)); // STP
-      positionChild(44, Offset(310.1, 60)); // FIN
-      positionChild(45, Offset(310.5, 80)); // SWE
-      positionChild(46, Offset(310, 100)); // GOB
-      positionChild(47, Offset(310, 120)); // BAL
-      positionChild(48, Offset(310.5, 140)); // BER
-      positionChild(49, Offset(310, 160)); // LVN
-      positionChild(50, Offset(310, 180)); // MOS
-      positionChild(51, Offset(310, 200)); // WAR
-      positionChild(52, Offset(310, 220)); // PRU
-      positionChild(53, Offset(310, 240)); // SIL
-      positionChild(54, Offset(310, 260)); // GAL
-      positionChild(55, Offset(310, 280)); // MUN
-      positionChild(56, Offset(310, 300)); // BOH
-      positionChild(57, Offset(310, 320)); // VIE
-      positionChild(58, Offset(310, 340)); // CRO
-      positionChild(59, Offset(310, 360)); // ADR
-      positionChild(60, Offset(310, 380)); // ION
-      positionChild(61, Offset(310, 400)); // SEV
-      positionChild(62, Offset(310, 420)); // ARM
-      positionChild(63, Offset(310.5, 440)); // SYR
-      positionChild(64, Offset(310.5, 460)); // UKR
-      positionChild(65, Offset(310, 480)); // RUM
-      positionChild(66, Offset(310, 500)); // BLA
-      positionChild(67, Offset(360, 0)); // BUD
-      positionChild(68, Offset(360, 20)); // TRI
-      positionChild(69, Offset(360.3, 40)); // ALB
-      positionChild(70, Offset(360.5, 60.5)); // SER
-      positionChild(71, Offset(360, 80)); // BUL
-      positionChild(72, Offset(360, 100)); // ANK
-      positionChild(73, Offset(360, 120)); // CON
-      positionChild(74, Offset(360, 140)); // GRE
-      positionChild(75, Offset(360, 160)); // SMY
-      positionChild(76, Offset(360.7, 180.5)); // EME
-      positionChild(77, Offset(360.8, 200.2)); // AEG
+      positionChild(41, Offset(375, 40)); // BAR
+      positionChild(42, Offset(360, 94)); // NOR
+      positionChild(43, Offset(441, 155)); // STP
+      positionChild(44, Offset(387, 139)); // FIN
+      positionChild(45, Offset(320, 102)); // SWE
+      positionChild(46, Offset(372, 170)); // GOB
+      positionChild(47, Offset(320, 160)); // BAL
+      positionChild(48, Offset(308, 200)); // BER
+      positionChild(49, Offset(388, 203)); // LVN
+      positionChild(50, Offset(441, 246)); // MOS
+      positionChild(51, Offset(400, 246)); // WAR
+      positionChild(52, Offset(350, 240)); // PRU
+      positionChild(53, Offset(320, 262)); // SIL
+      positionChild(54, Offset(348, 310)); // GAL
+      positionChild(55, Offset(255, 263)); // MUN
+      positionChild(56, Offset(265, 315)); // BOH
+      positionChild(57, Offset(272, 380)); // VIE
+      positionChild(58, Offset(242, 438)); // CRO
+      positionChild(59, Offset(254, 507)); // ADR
+      positionChild(60, Offset(245, 600)); // ION
+      positionChild(61, Offset(442, 327)); // SEV
+      positionChild(62, Offset(441, 465)); // ARM
+      positionChild(63, Offset(442, 595)); // SYR
+      positionChild(64, Offset(403, 305)); // UKR
+      positionChild(65, Offset(370, 357)); // RUM
+      positionChild(66, Offset(403, 415)); // BLA
+      positionChild(67, Offset(320, 385)); // BUD
+      positionChild(68, Offset(298, 455)); // TRI
+      positionChild(69, Offset(281, 520)); // ALB
+      positionChild(70, Offset(335, 475)); // SER
+      positionChild(71, Offset(361, 506)); // BUL
+      positionChild(72, Offset(414.5, 475)); // ANK
+      positionChild(73, Offset(385, 520)); // CON
+      positionChild(74, Offset(320, 530)); // GRE
+      positionChild(75, Offset(413, 550)); // SMY
+      positionChild(76, Offset(360.7, 625)); // EME
+      positionChild(77, Offset(360.8, 580)); // AEG
     }
   }
 
