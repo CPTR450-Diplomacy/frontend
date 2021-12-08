@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//@immuable 
+//@immuable
 
 class AppColors {
   final red = const Color(0xFFf0b097);
@@ -15,6 +15,7 @@ class AppColors {
   final blueBorder = const Color(0xFF7cc8d6);
   final violet = const Color(0xFFd399f4);
   final violetBorder = const Color(0xFFb64af3);
+  final sand = const Color(0xFFe1b174);
 
   const AppColors();
 }

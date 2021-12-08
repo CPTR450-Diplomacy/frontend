@@ -59,8 +59,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/logo.png
-  #   - images/a_dot_ham.jpeg
+    - assets/pics/MicrosoftTeams-image.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -85,6 +84,7 @@ flutter:
     - family: Centaur
       fonts:
         - asset: assets/fonts/CENTAUR.TTF
+          weight: 800
     
     - family: Nadira
       fonts:
@@ -98,5 +98,10 @@ flutter:
         - asset: assets/fonts/Akzidenz-grotesk-light.ttf
         - asset: assets/fonts/Akzidenz-grotesk-roman.ttf
           weight: 700
+
+    - family: Camelot
+      fonts: 
+        - asset: assets/fonts/CamelotCaps.ttf
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
