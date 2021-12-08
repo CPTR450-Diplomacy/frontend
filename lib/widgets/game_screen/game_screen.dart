@@ -10,7 +10,6 @@ class gameScreen extends StatelessWidget {
               'D',
               style: CustomTheme.defaultTheme.appBarTheme.toolbarTextStyle,
             ),
-            // centerTitle: true,
             flexibleSpace: Image(
               image: AssetImage('assets/pics/MicrosoftTeams-image.png'),
               fit: BoxFit.cover,

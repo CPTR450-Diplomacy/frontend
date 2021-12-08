@@ -6,7 +6,6 @@ class mainMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        // centerTitle: true,
         leading: Text(
           'D',
           style: CustomTheme.defaultTheme.appBarTheme.toolbarTextStyle,
