@@ -5,34 +5,18 @@ class CustomTheme {
   static const colors = AppColors();
   static ThemeData get defaultTheme {
     return ThemeData(
-        colorScheme: const ColorScheme(
-          primary: Color(0xFFe1b174), //sand2
-          primaryVariant: Color(0xFFe1b174),
-          onPrimary: Colors.black,
-          background: Color(0xFFf6d8b2), //sand1
-          onBackground: Colors.black,
-          brightness: Brightness.light,
-          secondary: Color(0xFFb4ded9),
-          secondaryVariant: Color(0xFF6770f3),
-          onSecondary: Colors.black,
-          surface: Color(0xffcbcbcb),
-          onSurface: Colors.black,
-          error: Colors.blue,
-          onError: Colors.red,
-        ),
+        brightness: Brightness.light,
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
-            headline1: TextStyle(fontSize: 60.0, fontFamily: 'Behrensschrift'),
-            headline2: TextStyle(fontSize: 60.0, fontFamily: 'Centaur'),
-            headline3: TextStyle(
-                //subheading
-                fontSize: 24.0,
-                fontFamily: 'Akzidenz-grotesk',
-                fontWeight: FontWeight.bold),
-            headline4: TextStyle(fontSize: 60.0, fontFamily: 'Village'),
-            bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Village'),
-            bodyText2:
-                TextStyle(fontSize: 24.0, fontFamily: 'Akzidenz-grotesk')),
+          headline2: TextStyle(fontSize: 60.0, fontFamily: 'Centaur'),
+          headline3: TextStyle(
+              //subheading
+              fontSize: 24.0,
+              fontFamily: 'Akzidenz-grotesk',
+              fontWeight: FontWeight.bold),
+          headline4: TextStyle(fontSize: 38.0, fontFamily: 'Centaur'),
+          bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Akzidenz-grotesk'),
+        ),
         appBarTheme: const AppBarTheme(
           titleTextStyle: TextStyle(fontSize: 38.0, fontFamily: 'Centaur'),
           toolbarTextStyle: TextStyle(fontSize: 66.0, fontFamily: 'Camelot'),
@@ -41,10 +25,9 @@ class CustomTheme {
   }
 }
 
-//Example
-//color:CustomTheme.colors.red
-
-//https://www.youtube.com/watch?v=Ml0d8m8Pphg&ab_channel=BleylDev - colors reference
+//Examples of using theme data
+//color: CustomTheme.defaultTheme.colors.red
+//TextStyle: CustomTheme.defaultTheme.textTheme.bodyText1
 
 //Main 7 country colors (first - fill & second - outline)
 

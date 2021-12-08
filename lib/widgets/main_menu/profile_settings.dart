@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/styling/theme.dart';
 
+//When merging branches make sure that the class name stays consistent with the one referenced in
+// main. The entire AppBar widget below should be implemented for navigation to work.
+
 class profileSettings extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

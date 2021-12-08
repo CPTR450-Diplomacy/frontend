@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/styling/theme.dart';
 
+//When merging branches make sure that the class name stays consistent with the one referenced in
+// main. The entire AppBar widget below should be implemented for navigation to work.
+
 class mainMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -33,8 +36,8 @@ class mainMenu extends StatelessWidget {
         ),
       ),
 //button for creating/viewing games
-//when merged with Elons page all that matters in this body section
-//is that the onPressed info is added to Elons already made buttons
+//when merged with main menu all that matters in this body section
+//is that the onPressed info is added to already made buttons
       body: Center(
         child: ElevatedButton(
           onPressed: () {
