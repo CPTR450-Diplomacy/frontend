@@ -29,8 +29,10 @@ class CustomTheme {
 //color: CustomTheme.defaultTheme.colors.red
 //TextStyle: CustomTheme.defaultTheme.textTheme.bodyText1
 
-//Main 7 country colors (first - fill & second - outline)
 
+
+
+//Main 7 country colors (first - fill & second - outline)
 //Red: FFf0b097 & FFed7648
 //Orange: FFf4cf99 & FFf4a93c
 //Yellow: FFf4dd99 & FFefc547
@@ -38,8 +40,6 @@ class CustomTheme {
 //Blue: FFb4ded9 & FF7cc8d6
 //Indigo: FF999ff4 & FF6770f3
 //Violet: FFd399f4 & FFb64af3
-
 //Map margins will be sand and the gray is an uninhabited country
-
 //Sand: f6d8b2 & e1b174
 //Gray: cbcbcb & 9a9a9a

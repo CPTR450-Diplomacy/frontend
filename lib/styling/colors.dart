@@ -13,6 +13,8 @@ class AppColors {
   final greenBorder = const Color(0xFF8ac489);
   final blue = const Color(0xFFb4ded9);
   final blueBorder = const Color(0xFF7cc8d6);
+  final indigo = const Color(0xFF999ff4);
+  final indigoBorder = const Color(0xFF6770f3);
   final violet = const Color(0xFFd399f4);
   final violetBorder = const Color(0xFFb64af3);
   final sand = const Color(0xFFe1b174);
