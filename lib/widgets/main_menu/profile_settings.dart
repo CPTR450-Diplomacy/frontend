@@ -25,7 +25,7 @@ class profileSettings extends StatelessWidget {
             actions: <Widget>[
           TextButton(
             style: TextButton.styleFrom(
-              textStyle: CustomTheme.defaultTheme.textTheme.bodyText2,
+              textStyle: CustomTheme.defaultTheme.textTheme.bodyText1,
               primary: Colors.white,
             ),
             onPressed: () {
