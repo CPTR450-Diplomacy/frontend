@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/hexmap_names.dart';
 import 'hexmap.dart';
 import 'hexmap_names.dart';
+import 'board_pieces.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class HexMapState extends State<HexMap> {
     return Scaffold(
         appBar: AppBar(title: const Text('HexMap Example')),
         body: Center(
-          child: Stack(children: [HexmapBoard, HexmapNames],)
+          child: Stack(children: [HexmapBoard, HexmapNames, HexmapBoardPieces],)
           ),
     );
   }
