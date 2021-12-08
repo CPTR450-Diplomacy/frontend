@@ -58,9 +58,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/pics/MicrosoftTeams-image.png
+    - assets/pics/Army.png
+    - assets/pics/Fleet.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -77,6 +78,20 @@ flutter:
     - family: Behrensschrift
       fonts:
         - asset: assets/fonts/Behrensschrift.ttf
+    
+    - family: Village
+      fonts:
+        - asset: assets/fonts/Village.ttf
+
+    - family: Centaur
+      fonts:
+        - asset: assets/fonts/CENTAUR.TTF
+          weight: 800
+    
+    - family: Nadira
+      fonts:
+        - asset: assets/fonts/NF-Nadira-Pro-Bold.ttf
+        - asset: assets/fonts/NF-Nadira-Pro-Regular.ttf
 
     - family: Akzidenz-grotesk
       fonts:
@@ -85,5 +100,10 @@ flutter:
         - asset: assets/fonts/Akzidenz-grotesk-light.ttf
         - asset: assets/fonts/Akzidenz-grotesk-roman.ttf
           weight: 700
+
+    - family: Camelot
+      fonts: 
+        - asset: assets/fonts/CamelotCaps.ttf
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
