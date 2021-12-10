@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/chatmessages.dart';
+import 'package:frontend/widgets/chat/chatmessages.dart';
 
 //https://www.freecodecamp.org/news/build-a-chat-app-ui-with-flutter/
 class ChatScreen extends StatefulWidget {
