@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/widgets/chat/chatmessages.dart';
+import 'package:frontend/widgets/chat_screen/chatmessages.dart';
+import 'package:frontend/styling/theme.dart';
 
 //https://www.freecodecamp.org/news/build-a-chat-app-ui-with-flutter/
 class ChatScreen extends StatefulWidget {
@@ -38,8 +39,31 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Lobby Chat"),
-      ),
+          leading: Text(
+            'D',
+            style: CustomTheme.defaultTheme.appBarTheme.toolbarTextStyle,
+          ),
+          flexibleSpace: Image(
+            image: AssetImage('assets/pics/MicrosoftTeams-image.png'),
+            fit: BoxFit.cover,
+          ),
+          backgroundColor: Colors.transparent,
+          title: Text(
+            'Lobby Chat',
+            style: CustomTheme.defaultTheme.appBarTheme.titleTextStyle,
+          ),
+          actions: <Widget>[
+            TextButton(
+              style: TextButton.styleFrom(
+                textStyle: CustomTheme.defaultTheme.textTheme.bodyText1,
+                primary: Colors.white,
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, '/gameScreenRoute');
+              },
+              child: const Text('Back'),
+            ),
+          ]),
       body: Stack(
         children: <Widget>[
           ListView.builder(

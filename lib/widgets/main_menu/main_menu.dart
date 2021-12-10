@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/styling/theme.dart';
-import 'package:frontend/views/home/home_view.dart';
+import 'package:frontend/widgets/main_menu/views/home/home_view.dart';
 
 //When merging branches make sure that the class name stays consistent with the one referenced in
 // main. The entire AppBar widget below should be implemented for navigation to work.
@@ -28,7 +28,7 @@ class mainMenu extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, '/profileRoute');
             },
-            child: const Text('Profile/Settings'),
+            child: const Text('Profile'),
           ),
         ],
         flexibleSpace: Image(

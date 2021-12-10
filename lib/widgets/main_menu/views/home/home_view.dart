@@ -1,10 +1,9 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:frontend/widgets/call_to_action/call_to_action2.dart';
-import 'package:frontend/widgets/top_bar/top_bar2.dart';
-import 'package:frontend/widgets/centered_view/centered_view.dart';
-import 'package:frontend/widgets/course_details/course_details.dart';
+import 'package:frontend/widgets/main_menu/call_to_action/call_to_action2.dart';
+import 'package:frontend/widgets/main_menu/centered_view/centered_view.dart';
+import 'package:frontend/widgets/main_menu/course_details/course_details.dart';
 
 //this is the main website file for the menu
 class HomeView extends StatelessWidget {
@@ -17,7 +16,6 @@ class HomeView extends StatelessWidget {
       body: CenteredView(
         child: Column(
           children: <Widget>[
-            //TopBar2(),
             Expanded(
               child: Row(
                 children: <Widget>[

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/login/login_container.dart';
+import 'package:frontend/widgets/login_screen/login/login_container.dart';
 import 'package:frontend/styling/theme.dart';
 
 //When merging branches make sure that the class name stays consistent with the one referenced in
