@@ -1,2 +1,22 @@
-[![test badge](https://github.com/CPTR450-Diplomacy/frontend/actions/workflows/unit_test.yaml/badge.svg?branch=main)](https://github.com/CPTR450-Diplomacy/frontend/actions?query=workflow%3A"Unit+Test"+branch%3Amain)
-# frontend
+# Diplomacy (frontend)
+
+## Initial Team Member Delegation
+- Theme: Owen, Samuel
+- Login: Kieran
+- Gameboard: Ivan, Jose
+- Hub: Elon
+- Chat: Kaelan
+
+
+## Page Navigation
+```
+Login
+└───Hub
+│   └───Create Game
+│       │   └───Main Game Screen
+│       │   └───Chat
+│   └───In Progress
+```
+Note: May be subject to change
+
+
