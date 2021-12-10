@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/styling/theme.dart';
+import 'package:frontend/views/home/home_view.dart';
 
 //When merging branches make sure that the class name stays consistent with the one referenced in
 // main. The entire AppBar widget below should be implemented for navigation to work.
@@ -38,14 +39,7 @@ class mainMenu extends StatelessWidget {
 //button for creating/viewing games
 //when merged with main menu all that matters in this body section
 //is that the onPressed info is added to already made buttons
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/gameScreenRoute');
-          },
-          child: Text('Create Game'),
-        ),
-      ),
+      body: (const HomeView()),
     );
   }
 }
