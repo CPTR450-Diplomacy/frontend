@@ -4,7 +4,7 @@ import 'province_svgs.dart';
 
 Widget HexmapBoard = Container(
     decoration: BoxDecoration(
-        color: Colors.brown[800], border: Border.all(width: 5.0,color: Colors.black)),
+        color: Colors.black87, border: Border.all(width: 5.0,color: Colors.black)),
     child: SizedBox(
         height: 660.0,
         width: 464.0,
