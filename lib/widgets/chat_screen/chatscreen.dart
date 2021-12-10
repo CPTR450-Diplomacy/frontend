@@ -83,16 +83,17 @@ class _ChatScreenState extends State<ChatScreen> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: (messages[index].messageType == "receiver"
-                          ? Colors
-                              .grey.shade200 //Message bubbles on the left side
-                          : Colors
-                              .blue[200]), // Message bubbles on the right side
+                          ? CustomTheme.colors.sand.withOpacity(
+                              0.75) //Message bubbles on the left side
+                          : CustomTheme.colors
+                              .indigo), // Message bubbles on the right side
                     ),
                     padding: const EdgeInsets.all(16),
                     child: Text(
                       messages[index].messageFrom +
                           messages[index].messageContent,
-                      style: const TextStyle(fontSize: 15), //Text bubble text
+                      style: CustomTheme.defaultTheme.textTheme.headline4,
+                      //Text bubble text
                     ),
                   ),
                 ),
@@ -105,7 +106,7 @@ class _ChatScreenState extends State<ChatScreen> {
               padding: const EdgeInsets.only(left: 10, bottom: 10, top: 10),
               height: 60,
               width: double.infinity,
-              color: Colors.blue, //Bar where text is entered
+              color: Colors.grey[200], //Bar where text is entered
               child: Row(
                 children: <Widget>[
                   const SizedBox(
@@ -141,7 +142,8 @@ class _ChatScreenState extends State<ChatScreen> {
                       color: Colors.white, //Paper plane icon on send message
                       size: 18,
                     ),
-                    backgroundColor: Colors.red, //Send message button
+                    backgroundColor:
+                        CustomTheme.colors.indigo, //Send message button
                     elevation: 0,
                   ),
                 ],
