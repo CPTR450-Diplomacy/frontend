@@ -8,7 +8,7 @@ Widget HexmapBoardPieces = Container(
     child: SizedBox(
         height: 660.0,
         width: 464.0,
-        child: CustomMultiChildLayout(delegate: ProvinceDelegate(), children: [
+        child: CustomMultiChildLayout(delegate: BoardPieceDelegate(), children: [
           LayoutId(
             id: 1,
             child: Image.asset(
@@ -165,8 +165,8 @@ Widget HexmapBoardPieces = Container(
           ),
         ])));
 
-class ProvinceDelegate extends MultiChildLayoutDelegate {
-  ProvinceDelegate({this.position});
+class BoardPieceDelegate extends MultiChildLayoutDelegate {
+  BoardPieceDelegate({this.position});
 
   final Offset? position;
 
@@ -355,7 +355,7 @@ class ProvinceDelegate extends MultiChildLayoutDelegate {
   }
 
   @override
-  bool shouldRelayout(ProvinceDelegate oldDelegate) {
+  bool shouldRelayout(BoardPieceDelegate oldDelegate) {
     return oldDelegate.position != position;
   }
 }
