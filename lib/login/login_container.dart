@@ -29,8 +29,10 @@ class LoginState extends State<LoginContainer> {
                         .textTheme
                         .headline4
                         ?.copyWith(fontSize: 80, color: Colors.black))),
-            onEnd: () => _visible = false // TODO,
-            ),
+            onEnd: () {
+              _visible = false;
+              Navigator.pushNamed(context, '/menuRoute');
+            }),
         duration: const Duration(seconds: 3),
         curve: Curves.easeIn,
       ),
