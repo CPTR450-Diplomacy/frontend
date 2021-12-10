@@ -24,18 +24,6 @@ class login extends StatelessWidget {
             '',
             style: CustomTheme.defaultTheme.appBarTheme.titleTextStyle,
           ),
-          actions: <Widget>[
-            TextButton(
-              style: TextButton.styleFrom(
-                textStyle: CustomTheme.defaultTheme.textTheme.bodyText1,
-                primary: Colors.white,
-              ),
-              onPressed: () {
-                Navigator.pushNamed(context, '/menuRoute');
-              },
-              child: const Text('Login'),
-            ),
-          ],
         ),
         body: const Center(child: LoginContainer()));
   }
