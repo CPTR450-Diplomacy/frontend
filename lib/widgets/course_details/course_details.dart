@@ -15,7 +15,7 @@ class CourseDetails extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            'WELCOME TO\n DIPLOMACY',
+            '     DIPLOMACY',
             style: TextStyle(
                 fontWeight: FontWeight.w800, height: 0.9, fontSize: 70),
           ),
@@ -23,7 +23,7 @@ class CourseDetails extends StatelessWidget {
             height: 30,
           ),
           Text(
-              'In this game, you are a country which controls three armies. Your goal is to move your armies to capture supply centers. Whichever country controls 18 supply centers wins the game. Happy Hunting.',
+              'In this game, you are a country which controls three armies. Your goal is to move your armies to capture supply centers. Whichever country controls 18 supply centers wins the game. \t\tHappy Hunting.',
               style: TextStyle(fontSize: 21, height: 1.7))
         ],
       ),

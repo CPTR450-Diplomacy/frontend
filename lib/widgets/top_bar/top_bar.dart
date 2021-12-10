@@ -13,15 +13,15 @@ class TopBar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
+            _TopBarItem('Log Out'),
             SizedBox(
               height: 80,
               width: 150,
-              child: Image.asset('assets/logo.png'),
             ),
             Row(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
-                _TopBarItem('FAQ'),
+                _TopBarItem('Settings'),
                 SizedBox(
                   width: 60,
                 ),
