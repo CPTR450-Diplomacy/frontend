@@ -19,7 +19,9 @@ class CallToAction2 extends StatelessWidget {
               FloatingActionButton.extended(
                 //icon: Icon(Icons.message),
                 label: Text(" Create Game "),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/gameScreenRoute');
+                },
               ),
               SizedBox(
                 height: 20,
@@ -27,7 +29,9 @@ class CallToAction2 extends StatelessWidget {
               FloatingActionButton.extended(
                 //icon: Icon(Icons.message),
                 label: Text(" Join Game "),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/gameScreenRoute');
+                },
               ),
               SizedBox(
                 height: 20,
@@ -35,7 +39,9 @@ class CallToAction2 extends StatelessWidget {
               FloatingActionButton.extended(
                 //icon: Icon(Icons.message),
                 label: Text(" Games In Progress "),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/gameScreenRoute');
+                },
               ),
             ],
           ),

@@ -17,7 +17,7 @@ class HomeView extends StatelessWidget {
       body: CenteredView(
         child: Column(
           children: <Widget>[
-            TopBar2(),
+            //TopBar2(),
             Expanded(
               child: Row(
                 children: <Widget>[
