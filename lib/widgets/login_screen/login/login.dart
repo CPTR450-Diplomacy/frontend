@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/login/login_container.dart';
-import 'package:frontend/login/error_page.dart';
-import 'package:frontend/login/loading_page.dart';
+import 'package:frontend/widgets/login_screen/login/login_container.dart';
+import 'package:frontend/widgets/login_screen/login/error_page.dart';
+import 'package:frontend/widgets/login_screen/login/loading_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 class Login extends StatefulWidget {

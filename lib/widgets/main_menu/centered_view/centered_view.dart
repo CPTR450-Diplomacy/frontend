@@ -10,6 +10,7 @@ class CenteredView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(color: Color.fromRGBO(255, 0, 0, 0.0)),
       padding: const EdgeInsets.symmetric(horizontal: 70, vertical: 60),
       alignment: Alignment.topCenter,
       child: ConstrainedBox(

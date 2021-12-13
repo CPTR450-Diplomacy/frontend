@@ -1,5 +1,4 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
-
+import 'package:frontend/styling/theme.dart';
 import 'package:flutter/material.dart';
 
 class CourseDetails extends StatelessWidget {
@@ -15,16 +14,15 @@ class CourseDetails extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            '     DIPLOMACY',
-            style: TextStyle(
-                fontWeight: FontWeight.w800, height: 0.9, fontSize: 70),
+            'Welcome',
+            style: CustomTheme.defaultTheme.textTheme.headline1,
           ),
           SizedBox(
             height: 30,
           ),
           Text(
-              'In this game, you are a country which controls three armies. Your goal is to move your armies to capture supply centers. Whichever country controls 18 supply centers wins the game. \t\tHappy Hunting.',
-              style: TextStyle(fontSize: 21, height: 1.7))
+              'In this game of wits, you are in charge of a major European Power. Dominate and outmaneuver your oponents to win.',
+              style: CustomTheme.defaultTheme.textTheme.bodyText1)
         ],
       ),
     );

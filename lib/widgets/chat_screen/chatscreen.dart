@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/chatmessages.dart';
+import 'package:frontend/widgets/chat_screen/chatmessages.dart';
+import 'package:frontend/styling/theme.dart';
 
 //https://www.freecodecamp.org/news/build-a-chat-app-ui-with-flutter/
 class ChatScreen extends StatefulWidget {
@@ -38,8 +39,31 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Lobby Chat"),
-      ),
+          leading: Text(
+            'D',
+            style: CustomTheme.defaultTheme.appBarTheme.toolbarTextStyle,
+          ),
+          flexibleSpace: Image(
+            image: AssetImage('assets/pics/MicrosoftTeams-image.png'),
+            fit: BoxFit.cover,
+          ),
+          backgroundColor: Colors.transparent,
+          title: Text(
+            'Lobby Chat',
+            style: CustomTheme.defaultTheme.appBarTheme.titleTextStyle,
+          ),
+          actions: <Widget>[
+            TextButton(
+              style: TextButton.styleFrom(
+                textStyle: CustomTheme.defaultTheme.textTheme.bodyText1,
+                primary: Colors.white,
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, '/gameScreenRoute');
+              },
+              child: const Text('Back'),
+            ),
+          ]),
       body: Stack(
         children: <Widget>[
           ListView.builder(
@@ -59,16 +83,17 @@ class _ChatScreenState extends State<ChatScreen> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: (messages[index].messageType == "receiver"
-                          ? Colors
-                              .grey.shade200 //Message bubbles on the left side
-                          : Colors
-                              .blue[200]), // Message bubbles on the right side
+                          ? CustomTheme.colors.sand.withOpacity(
+                              0.75) //Message bubbles on the left side
+                          : CustomTheme.colors
+                              .indigo), // Message bubbles on the right side
                     ),
                     padding: const EdgeInsets.all(16),
                     child: Text(
                       messages[index].messageFrom +
                           messages[index].messageContent,
-                      style: const TextStyle(fontSize: 15), //Text bubble text
+                      style: CustomTheme.defaultTheme.textTheme.headline4,
+                      //Text bubble text
                     ),
                   ),
                 ),
@@ -81,7 +106,7 @@ class _ChatScreenState extends State<ChatScreen> {
               padding: const EdgeInsets.only(left: 10, bottom: 10, top: 10),
               height: 60,
               width: double.infinity,
-              color: Colors.blue, //Bar where text is entered
+              color: Colors.grey[200], //Bar where text is entered
               child: Row(
                 children: <Widget>[
                   const SizedBox(
@@ -117,7 +142,8 @@ class _ChatScreenState extends State<ChatScreen> {
                       color: Colors.white, //Paper plane icon on send message
                       size: 18,
                     ),
-                    backgroundColor: Colors.red, //Send message button
+                    backgroundColor:
+                        CustomTheme.colors.indigo, //Send message button
                     elevation: 0,
                   ),
                 ],

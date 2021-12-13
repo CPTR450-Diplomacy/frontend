@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
-import 'package:frontend/login/models/auth.dart';
+import 'package:frontend/widgets/login_screen/login/models/auth.dart';
 import 'package:flutter_fadein/flutter_fadein.dart';
 import 'package:frontend/styling/theme.dart';
 
@@ -25,10 +25,7 @@ class LoginState extends State<LoginContainer> {
             child: Container(
                 margin: const EdgeInsets.only(top: 200),
                 child: Text('Diplomacy',
-                    style: Theme.of(context)
-                        .textTheme
-                        .headline4
-                        ?.copyWith(fontSize: 80, color: Colors.black))),
+                    style: CustomTheme.defaultTheme.textTheme.headline2)),
             onEnd: () {
               _visible = false;
               Navigator.pushNamed(context, '/menuRoute');

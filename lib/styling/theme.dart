@@ -8,14 +8,20 @@ class CustomTheme {
         brightness: Brightness.light,
         fontFamily: 'Akzidenz-grotesk',
         textTheme: const TextTheme(
-          headline2: TextStyle(fontSize: 60.0, fontFamily: 'Centaur'),
+          headline1: TextStyle(fontSize: 80.0, fontFamily: 'Centaur'),
+          headline2: TextStyle(fontSize: 100.0, fontFamily: 'Centaur'),
           headline3: TextStyle(
               //subheading
+              fontSize: 18.0,
+              fontFamily: 'Akzidenz-grotesk',
+              fontWeight: FontWeight.bold,
+              color: Colors.white),
+          bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Akzidenz-grotesk'),
+          bodyText2: TextStyle(fontSize: 28.0, fontFamily: 'Akzidenz-grotesk'),
+          headline4: TextStyle(
               fontSize: 24.0,
               fontFamily: 'Akzidenz-grotesk',
-              fontWeight: FontWeight.bold),
-          headline4: TextStyle(fontSize: 38.0, fontFamily: 'Centaur'),
-          bodyText1: TextStyle(fontSize: 24.0, fontFamily: 'Akzidenz-grotesk'),
+              color: Colors.white),
         ),
         appBarTheme: const AppBarTheme(
           titleTextStyle: TextStyle(fontSize: 38.0, fontFamily: 'Centaur'),

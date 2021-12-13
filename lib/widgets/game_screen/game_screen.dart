@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/styling/theme.dart';
-import 'package:frontend/map/hexmap.dart';
-import 'package:frontend/map/hexmap_names.dart';
-import 'package:frontend/map/board_pieces.dart';
-import 'package:frontend/map/supply_centers.dart';
+import 'package:frontend/widgets/game_screen/map/hexmap.dart';
+import 'package:frontend/widgets/game_screen/map/hexmap_names.dart';
+import 'package:frontend/widgets/game_screen/map/board_pieces.dart';
+import 'package:frontend/widgets/game_screen/map/supply_centers.dart';
 
 //When merging branches make sure that the class name stays consistent with the one referenced in
 // main. The entire AppBar widget below should be implemented for navigation to work.
